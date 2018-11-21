@@ -83,7 +83,7 @@ public class CustomerControllerTest {
 
         mockMvc.perform(get("/customers"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content", Matchers.hasSize(3)))
+                .andExpect(jsonPath("$._embedded.customers", Matchers.hasSize(3)))
         ;
     }
 
@@ -114,7 +114,8 @@ public class CustomerControllerTest {
                 .characterEncoding("utf-8")
         )
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content", Matchers.hasSize(3)))
+                .andExpect(jsonPath("$._embedded.customers", Matchers.hasSize(3)))
+                .andDo(MockMvcResultHandlers.print())
         ;
     }
 

@@ -18,6 +18,8 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
+import javax.persistence.EntityExistsException;
+import javax.persistence.NoResultException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -140,6 +142,14 @@ public class CityServiceTest {
         verify(cityRepository, atMost(1)).saveAndFlush(city);
     }
 
+    @Test(expected = EntityExistsException.class)
+    public void testCreateWithCityIdNotNull(){
+        City city = new City("Guaruja");
+        city.setId(100L);
+
+        cityService.create(city);
+    }
+
     @Test
     public void testUpdate(){
         String newName = "Aracaju";
@@ -158,6 +168,14 @@ public class CityServiceTest {
 
         verify(cityRepository, atMost(1)).findById(this.city1.getId());
         verify(cityRepository, atMost(1)).saveAndFlush(this.city1);
+    }
+
+    @Test(expected = NoResultException.class)
+    public void testUpdateWithNonExistingCity(){
+        this.city1.setId(Long.MAX_VALUE);
+
+        cityService.update(this.city1);
+
     }
 
     @Test

@@ -17,6 +17,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 
+import javax.persistence.EntityExistsException;
+import javax.persistence.NoResultException;
 import java.awt.print.Pageable;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -156,6 +158,24 @@ public class CustomerServiceTest {
 
     }
 
+    @Test(expected = EntityExistsException.class)
+    public void testCreateCustomerWithIdNotNull(){
+        Customer customer = new Customer("Merlin", new City("Araxa"));
+        customer.setId(100L);
+
+        customerService.create(customer);
+    }
+
+    @Test(expected = NoResultException.class)
+    public void testCreateCustomerWithNonExistingCity(){
+        City newCity = new City("Pirapora");
+        newCity.setId(Long.MAX_VALUE);
+        Customer customer = new Customer("Grogg", newCity);
+
+        customerService.create(customer);
+
+    }
+
 
     @Test
     public void testUpdateCustomerName(){
@@ -192,6 +212,14 @@ public class CustomerServiceTest {
 
         verify(customerRepository, atMost(1)).findById(this.customer1.getId());
         verify(customerRepository, atMost(1)).saveAndFlush(this.customer1);
+
+    }
+
+    @Test(expected = NoResultException.class)
+    public void testUpdateNonExistingCustomer(){
+        this.customer1.setId(Long.MAX_VALUE);
+
+        customerService.update(this.customer1);
 
     }
 

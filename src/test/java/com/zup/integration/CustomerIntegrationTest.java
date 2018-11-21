@@ -68,11 +68,10 @@ public class CustomerIntegrationTest {
 
     @Test
     public void testGetAllCustomers() throws Exception{
-        String customerName = "Jerbas";
 
         mockMvc.perform(get(PATH))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content[0].name", Matchers.is("Jebediah")))
+                .andExpect(jsonPath("$.page.totalElements", Matchers.greaterThan(0)))
                 .andDo(MockMvcResultHandlers.print())
         ;
     }
@@ -94,7 +93,7 @@ public class CustomerIntegrationTest {
                 .param("name", searchName)
         )
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content[0].name", Matchers.is(this.customer1.getName())))
+                .andExpect(jsonPath("$.page.totalElements", Matchers.greaterThan(0)))
                 .andDo(MockMvcResultHandlers.print())
         ;
     }

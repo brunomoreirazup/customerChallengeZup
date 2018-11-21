@@ -20,13 +20,13 @@ public class CityController {
 
     @GetMapping("/cities")
     public CustomPage getCities(Pageable pageable){
-        CustomPage customPage = new CustomPage(cityService.findAll(pageable), "customers");
+        CustomPage customPage = new CustomPage(cityService.findAll(pageable), "cities");
         return customPage;
     }
 
     @GetMapping("/cities/search")
     public CustomPage searchCities(Pageable pageable, @RequestParam(value = "name") String name){
-        CustomPage customPage = new CustomPage(cityService.findByName(pageable, name), "customers");
+        CustomPage customPage = new CustomPage(cityService.findByName(pageable, name), "cities");
         return customPage;
     }
 

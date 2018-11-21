@@ -70,8 +70,10 @@ public class CityControllerTest {
 
         mockMvc.perform(get(PATH))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content", Matchers.hasSize(2)))
-                .andExpect(jsonPath("$.content[0].name",Matchers.is("Uberaba")));
+                .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
+                .andExpect(jsonPath("$._embedded.cities[0].name",Matchers.is("Uberaba")))
+                .andDo(MockMvcResultHandlers.print());
+        ;
 
     }
 
@@ -84,7 +86,9 @@ public class CityControllerTest {
 
         mockMvc.perform(get(PATH + "/" + id))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.name",Matchers.is(this.city1.getName())));
+                .andExpect(jsonPath("$.name",Matchers.is(this.city1.getName())))
+                .andDo(MockMvcResultHandlers.print())
+        ;
     }
 
     @Test
@@ -97,9 +101,9 @@ public class CityControllerTest {
                 .param("name","Ub").characterEncoding("utf-8")
         )
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content", Matchers.hasSize(2)))
-                .andExpect(jsonPath("$.content[0].name", Matchers.is("Uberaba")))
-                .andExpect(jsonPath("$.content[1].name", Matchers.is("Uberlandia")))
+                .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
+                .andExpect(jsonPath("$._embedded.cities[0].name", Matchers.is("Uberaba")))
+                .andExpect(jsonPath("$._embedded.cities[1].name", Matchers.is("Uberlandia")))
                 .andDo(MockMvcResultHandlers.print());
     }
 

@@ -11,6 +11,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
@@ -73,13 +74,14 @@ public class CityIntegrationTest {
 
 
     @Test
-    public void testGetCities() throws Exception{
+    public void testGetAllCities() throws Exception{
 
-        String name = "Sub Zero";
 
         mockMvc.perform(get(PATH))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content[0].name", Matchers.is("Glacial")));
+                .andExpect(jsonPath("$.page.totalElements", Matchers.greaterThan(0)))
+                .andDo(MockMvcResultHandlers.print())
+        ;
     }
 
     @Test
@@ -99,8 +101,8 @@ public class CityIntegrationTest {
         mockMvc.perform(get(PATH + "/search")
                 .param("name", searchName))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.content[0].name", Matchers.is(searchName)))
-                .andDo(MockMvcResultHandlers.print());
+                .andExpect(jsonPath("$.page.totalElements", Matchers.greaterThan(0)))
+                .andDo(MockMvcResultHandlers.print())
         ;
 
 
