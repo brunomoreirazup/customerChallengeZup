@@ -10,7 +10,6 @@
 
     <name>customerChallenge</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -69,7 +68,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
-        </dependency>herok
+        </dependency>
     </dependencies>
 
     <build>
