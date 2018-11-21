@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="customerChallenge@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.11">
+    <root id="1">
+      <ServerVersion>9.4.20</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="customerChallenge">
+      <ObjectId>16384</ObjectId>
+      <Owner>root</Owner>
+      <IntrospectionStateNumber>25</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12141</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>root</Owner>
+    </database>
+    <role id="4" parent="1" name="root">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="5" parent="2" name="information_schema">
+      <ObjectId>11591</ObjectId>
+      <Owner>root</Owner>
+    </schema>
+    <schema id="6" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>root</Owner>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11320</ObjectId>
+      <Owner>root</Owner>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>root</Owner>
+    </schema>
+    <schema id="9" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11321</ObjectId>
+      <Owner>root</Owner>
+    </schema>
+    <schema id="10" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>root</Owner>
+      <IntrospectionTimestamp>2018-11-21.10:02:21.681</IntrospectionTimestamp>
+      <IntrospectionStateNumber>687</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="11" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+    </access-method>
+    <access-method id="12" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+    </access-method>
+    <access-method id="13" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+    </access-method>
+    <access-method id="14" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+    </access-method>
+    <access-method id="15" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+    </access-method>
+    <sequence id="16" parent="10" name="hibernate_sequence">
+      <ObjectId>16395</ObjectId>
+      <Owner>root</Owner>
+      <StateNumber>686</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="17" parent="10" name="city">
+      <ObjectId>16385</ObjectId>
+      <Owner>root</Owner>
+      <StateNumber>687</StateNumber>
+    </table>
+    <table id="18" parent="10" name="customer">
+      <ObjectId>16390</ObjectId>
+      <Owner>root</Owner>
+      <StateNumber>687</StateNumber>
+    </table>
+    <column id="19" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>684</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="20" parent="17" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>684</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="21" parent="17" name="city_pkey">
+      <ObjectId>16388</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="22" parent="17" name="city_pkey">
+      <ObjectId>16389</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>city_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>685</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="24" parent="18" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>685</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="25" parent="18" name="city_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>685</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="26" parent="18" name="customer_pkey">
+      <ObjectId>16393</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="27" parent="18" name="customer_pkey">
+      <ObjectId>16394</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>customer_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="28" parent="18" name="fkt79b5wvqbf38jtkjx36vp9vam">
+      <ObjectId>16397</ObjectId>
+      <ColNames>city_id</ColNames>
+      <RefTableId>16385</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>city</RefTableName>
+      <RefKeyName>city_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

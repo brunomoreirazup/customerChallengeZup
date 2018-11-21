@@ -1,0 +1,13 @@
+version: '2'
+services:
+  postgres:
+    image: postgres:9.4
+    ports:
+    - "5432:5432"
+    environment:
+    - POSTGRES_DB=customerChallenge
+    - POSTGRES_USER=root
+    - POSTGRES_PASSWORD=root
+    - MAX_CONNECTIONS=300
+    volumes:
+    - ./scripts:/docker-entrypoint-initdb.d
