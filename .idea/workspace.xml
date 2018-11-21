@@ -59,7 +59,7 @@
           <entry key="java" value="26885" />
           <entry key="properties" value="242" />
           <entry key="txt" value="17" />
-          <entry key="xml" value="31" />
+          <entry key="xml" value="36" />
           <entry key="yml" value="27" />
         </counts>
       </usages-collector>
@@ -68,7 +68,7 @@
           <entry key="JAVA" value="26885" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="242" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="36" />
           <entry key="YAML" value="27" />
         </counts>
       </usages-collector>
@@ -78,8 +78,8 @@
           <entry key="customer" value="1" />
           <entry key="hibernate_sequence" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="247" />
-          <entry key="properties" value="4" />
+          <entry key="java" value="248" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="1" />
           <entry key="xml" value="7" />
           <entry key="yml" value="2" />
@@ -90,8 +90,8 @@
           <entry key="CLASS" value="13" />
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="247" />
-          <entry key="Properties" value="4" />
+          <entry key="JAVA" value="248" />
+          <entry key="Properties" value="5" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="7" />
@@ -123,11 +123,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="31">
-              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -148,6 +166,7 @@
       <find>jpa</find>
       <find>jsonPath</find>
       <find>param</find>
+      <find>postgre</find>
     </findStrings>
     <replaceStrings>
       <replace>findById</replace>
@@ -360,7 +379,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542815763853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542817466213" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -503,7 +522,7 @@
       <workItem from="1542195501560" duration="17945000" />
       <workItem from="1542625594763" duration="4172000" />
       <workItem from="1542632585175" duration="9171000" />
-      <workItem from="1542798240673" duration="16148000" />
+      <workItem from="1542798240673" duration="17524000" />
     </task>
     <servers />
   </component>
@@ -540,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87069000" />
+    <option name="totallyTimeSpent" value="88445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,9 +572,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.38484848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.38484848" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -565,7 +583,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49429038" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49429038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -748,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -792,13 +803,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -866,7 +870,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
