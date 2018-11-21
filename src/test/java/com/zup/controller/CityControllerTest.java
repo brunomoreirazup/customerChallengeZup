@@ -76,6 +76,18 @@ public class CityControllerTest {
     }
 
     @Test
+    public void testGetCityById() throws Exception{
+        this.city1.setId(5l);
+        Long id = this.city1.getId();
+
+        when(cityService.findById(id)).thenReturn(this.city1);
+
+        mockMvc.perform(get(PATH + "/" + id))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name",Matchers.is(this.city1.getName())));
+    }
+
+    @Test
     public void testSearchCities() throws Exception{
         Page<City> paginatedCities = new PageImpl<City>((List<City>) this.citiesList);
 

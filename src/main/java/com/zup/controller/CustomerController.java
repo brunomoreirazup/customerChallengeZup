@@ -1,5 +1,6 @@
 package com.zup.controller;
 
+import com.zup.model.CustomPage;
 import com.zup.model.Customer;
 import com.zup.service.CustomerService;
 import com.zup.service.CustomerServiceBean;
@@ -18,13 +19,16 @@ public class CustomerController {
     CustomerServiceBean customerService;
 
     @GetMapping("/customers")
-    public Page<Customer> getCustomers(Pageable pageable){
-        return customerService.findAll(pageable);
+    public CustomPage getCustomers(Pageable pageable){
+
+        CustomPage customPage = new CustomPage(customerService.findAll(pageable), "customers");
+        return customPage;
     }
 
     @GetMapping("/customers/search")
-    public Page<Customer> searchCustomer(Pageable pageable, @RequestParam(value = "name") String name){
-        return customerService.findByName(pageable, name);
+    public CustomPage searchCustomer(Pageable pageable, @RequestParam(value = "name") String name){
+        CustomPage customPage = new CustomPage(customerService.findByName(pageable, name), "customers");
+        return customPage;
     }
 
     @GetMapping("/customers/{id}")
@@ -49,9 +53,4 @@ public class CustomerController {
         customerService.delete(id);
     }
 
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(ValidationException.class)
-    String exceptionHandler(ValidationException e){
-        return e.getMessage();
-    }
 }

@@ -1,6 +1,7 @@
 package com.zup.controller;
 
 import com.zup.model.City;
+import com.zup.model.CustomPage;
 import com.zup.service.CityServiceBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,13 +19,15 @@ public class CityController {
     CityServiceBean cityService;
 
     @GetMapping("/cities")
-    public Page<City> getCities(Pageable pageable){
-        return cityService.findAll(pageable);
+    public CustomPage getCities(Pageable pageable){
+        CustomPage customPage = new CustomPage(cityService.findAll(pageable), "customers");
+        return customPage;
     }
 
     @GetMapping("/cities/search")
-    public Page<City> searchCities(Pageable pageable, @RequestParam(value = "name") String name){
-        return cityService.findByName(pageable, name);
+    public CustomPage searchCities(Pageable pageable, @RequestParam(value = "name") String name){
+        CustomPage customPage = new CustomPage(cityService.findByName(pageable, name), "customers");
+        return customPage;
     }
 
     @GetMapping("/cities/{id}")
@@ -46,12 +49,6 @@ public class CityController {
     @DeleteMapping("/cities/{id}")
     public void deleteCity(@PathVariable Long id){
         cityService.delete(id);
-    }
-
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(ValidationException.class)
-    String exceptionHandler(ValidationException e){
-        return e.getMessage();
     }
 
 }

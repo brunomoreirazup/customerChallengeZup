@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="" />
+    <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CityControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CityControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CityIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CityIntegrationTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="25188" />
+          <entry key="java" value="25973" />
           <entry key="properties" value="242" />
           <entry key="txt" value="17" />
           <entry key="xml" value="31" />
@@ -63,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25188" />
+          <entry key="JAVA" value="25973" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="242" />
           <entry key="XML" value="31" />
@@ -72,11 +80,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
+          <entry key="class" value="13" />
           <entry key="customer" value="1" />
           <entry key="hibernate_sequence" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="213" />
+          <entry key="java" value="225" />
           <entry key="properties" value="3" />
           <entry key="sql" value="1" />
           <entry key="xml" value="6" />
@@ -85,10 +93,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
+          <entry key="CLASS" value="13" />
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="213" />
+          <entry key="JAVA" value="225" />
           <entry key="Properties" value="3" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
@@ -104,34 +112,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="75" column="53" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="81" column="77" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
+            <state relative-caret-position="187">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,19 +124,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="189">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,6 +156,9 @@
       <replace>findById</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -197,16 +175,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" />
       </list>
     </option>
   </component>
@@ -243,6 +223,9 @@
     <option name="width" value="1366" />
     <option name="height" value="743" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -266,6 +249,54 @@
               <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,6 +313,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
@@ -291,6 +331,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zup" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +356,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542805350897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542808721525" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -334,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in customerChallenge">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -343,21 +392,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityControllerTest.testGetCityById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zup.*" />
+          <option name="PATTERN" value="com.zup.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zup" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.AppTest" />
+      <option name="PACKAGE_NAME" value="com.zup.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CityControllerTest" />
+      <option name="METHOD_NAME" value="testGetCityById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityIntegrationTest.testGetCityById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
@@ -366,22 +417,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zup.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.integration.CustomerIntegrationTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerIntegrationTest.testGetAllCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="customerChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zup.integration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zup.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.integration.CustomerIntegrationTest" />
-      <option name="METHOD_NAME" value="testGetAllCustomers" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.integration.CityIntegrationTest" />
+      <option name="METHOD_NAME" value="testGetCityById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -403,6 +440,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customerChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zup.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="docker-compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="PostgreDocker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -416,19 +466,19 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose" />
-      <item itemvalue="JUnit.CustomerIntegrationTest" />
-      <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.All in customerChallenge" />
-      <item itemvalue="JUnit.CustomerIntegrationTest.testGetAllCustomers" />
       <item itemvalue="JUnit.CustomerServiceTest.testCreate" />
+      <item itemvalue="JUnit.CityControllerTest.testGetCityById" />
+      <item itemvalue="JUnit.CityIntegrationTest.testGetCityById" />
+      <item itemvalue="Spring Boot.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.CityIntegrationTest.testGetCityById" />
+        <item itemvalue="JUnit.CityControllerTest.testGetCityById" />
         <item itemvalue="JUnit.All in customerChallenge" />
         <item itemvalue="JUnit.CustomerServiceTest.testCreate" />
-        <item itemvalue="JUnit.CustomerIntegrationTest.testGetAllCustomers" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.CustomerIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -449,20 +499,11 @@
       <workItem from="1542195501560" duration="17945000" />
       <workItem from="1542625594763" duration="4172000" />
       <workItem from="1542632585175" duration="9171000" />
-      <workItem from="1542798240673" duration="7103000" />
+      <workItem from="1542798240673" duration="10421000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerIntegrationTest_testUpdateCustomerName - 2018.11.21 at 10h 49m 59s.xml">
-      <configuration name="CustomerIntegrationTest.testUpdateCustomerName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerIntegrationTest_testUpdateCustomerCity - 2018.11.21 at 10h 52m 52s.xml">
-      <configuration name="CustomerIntegrationTest.testUpdateCustomerCity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerIntegrationTest_testDeleteCustomer - 2018.11.21 at 10h 54m 06s.xml">
-      <configuration name="CustomerIntegrationTest.testDeleteCustomer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerIntegrationTest - 2018.11.21 at 10h 54m 48s.xml">
       <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
     </history-entry>
@@ -484,9 +525,18 @@
     <history-entry file="CustomerServiceTest_testCreate - 2018.11.21 at 11h 02m 14s.xml">
       <configuration name="CustomerServiceTest.testCreate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_customerChallenge - 2018.11.21 at 11h 02m 46s.xml">
+      <configuration name="All in customerChallenge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityControllerTest_testGetCityById - 2018.11.21 at 11h 13m 40s.xml">
+      <configuration name="CityControllerTest.testGetCityById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityIntegrationTest_testGetCityById - 2018.11.21 at 11h 14m 34s.xml">
+      <configuration name="CityIntegrationTest.testGetCityById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78024000" />
+    <option name="totallyTimeSpent" value="81342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,6 +549,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.3189394" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
@@ -510,7 +561,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44878048" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40293637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -627,37 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1315">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,26 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -741,20 +745,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="117">
+          <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="2176">
+          <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,20 +772,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="81" column="77" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
+        <state relative-caret-position="16">
+          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="87" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
+        <state relative-caret-position="212">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/xml/bind/ValidationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

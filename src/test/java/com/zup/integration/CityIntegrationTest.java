@@ -83,6 +83,15 @@ public class CityIntegrationTest {
     }
 
     @Test
+    public void testGetCityById() throws Exception{
+        Long id = this.city1.getId();
+
+        mockMvc.perform(get(PATH + "/" + id))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name",Matchers.is(this.city1.getName())));
+    }
+
+    @Test
     public void testGetCitiesByName() throws Exception{
 
         String searchName = "Bavaria";
