@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +81,7 @@
           <entry key="java" value="247" />
           <entry key="properties" value="4" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
@@ -100,7 +94,7 @@
           <entry key="Properties" value="4" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="7" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
@@ -120,11 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="86">
               <caret line="221" column="45" selection-start-line="221" selection-start-column="45" selection-end-line="221" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -165,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/repository/CityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java" />
@@ -181,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -357,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542814818981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542815763853" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -384,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in customerChallenge">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -404,22 +407,6 @@
       <option name="PACKAGE_NAME" value="com.zup.service" />
       <option name="MAIN_CLASS_NAME" value="com.zup.service.CityServiceTest" />
       <option name="METHOD_NAME" value="testUpdateWithNonExistingCity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerServiceTest.testCreateCustomerWithIdNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="customerChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zup.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zup.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.service.CustomerServiceTest" />
-      <option name="METHOD_NAME" value="testCreateCustomerWithIdNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -457,6 +444,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customerChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zup.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="docker-compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="PostgreDocker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -471,18 +471,18 @@
     <list>
       <item itemvalue="Docker.docker-compose" />
       <item itemvalue="JUnit.All in customerChallenge" />
-      <item itemvalue="JUnit.CustomerServiceTest.testCreateCustomerWithIdNotNull" />
       <item itemvalue="JUnit.CustomerServiceTest.testCreateCustomerWithNonExistingCity" />
       <item itemvalue="JUnit.CityServiceTest.testUpdateWithNonExistingCity" />
       <item itemvalue="JUnit.CustomerServiceTest.testUpdateNonExistingCustomer" />
+      <item itemvalue="Spring Boot.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.All in customerChallenge" />
         <item itemvalue="JUnit.CustomerServiceTest.testUpdateNonExistingCustomer" />
         <item itemvalue="JUnit.CityServiceTest.testUpdateWithNonExistingCity" />
         <item itemvalue="JUnit.CustomerServiceTest.testCreateCustomerWithNonExistingCity" />
-        <item itemvalue="JUnit.CustomerServiceTest.testCreateCustomerWithIdNotNull" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +503,7 @@
       <workItem from="1542195501560" duration="17945000" />
       <workItem from="1542625594763" duration="4172000" />
       <workItem from="1542632585175" duration="9171000" />
-      <workItem from="1542798240673" duration="15275000" />
+      <workItem from="1542798240673" duration="16148000" />
     </task>
     <servers />
   </component>
@@ -540,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86196000" />
+    <option name="totallyTimeSpent" value="87069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,13 +684,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customerChallenge.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -867,6 +860,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="221" column="45" selection-start-line="221" selection-start-column="45" selection-end-line="221" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
