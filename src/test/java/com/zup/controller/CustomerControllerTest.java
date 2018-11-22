@@ -142,7 +142,8 @@ public class CustomerControllerTest {
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.name",Matchers.is(customer.getName())))
                 .andDo(MockMvcResultHandlers.print())
         ;
 
@@ -166,8 +167,8 @@ public class CustomerControllerTest {
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id", Matchers.is(5)))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
                 .andDo(MockMvcResultHandlers.print())
         ;
     }
@@ -195,8 +196,8 @@ public class CustomerControllerTest {
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id", Matchers.is(5)))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
                 .andDo(MockMvcResultHandlers.print())
         ;
 
@@ -208,7 +209,7 @@ public class CustomerControllerTest {
         Long id = this.customer1.getId();
 
         mockMvc.perform(delete("/customers" + "/" + id))
-                .andExpect(status().isOk());
+                .andExpect(status().isNoContent());
 
     }
 

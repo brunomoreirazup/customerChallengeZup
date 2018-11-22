@@ -117,7 +117,7 @@ public class CityControllerTest {
         when(cityService.create(notNull())).thenReturn(city);
 
         mockMvc.perform(post(PATH).contentType(MediaType.APPLICATION_JSON).content(JSONObject.toJSONString(data)))
-                .andExpect(status().isOk())
+                .andExpect(status().isCreated())
                 .andExpect(jsonPath("name",Matchers.is("Fornace")))
                 .andDo(MockMvcResultHandlers.print());
     }
@@ -139,7 +139,8 @@ public class CityControllerTest {
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
                 .andDo(MockMvcResultHandlers.print());
     }
 
@@ -151,7 +152,7 @@ public class CityControllerTest {
         mockMvc.perform(delete(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
         )
-                .andExpect(status().isOk());
+                .andExpect(status().isNoContent());
 
     }
 

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +21,7 @@
     <SUITE FILE_PATH="coverage/customerChallenge$CityControllerTest.ic" NAME="CityControllerTest Coverage Results" MODIFIED="1542638973405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zup.controller.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/customerChallenge$All_in_customerChallenge.ic" NAME="All in customerChallenge Coverage Results" MODIFIED="1542814739737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/customerChallenge$All_in_customerChallenge.ic" NAME="All in customerChallenge Coverage Results" MODIFIED="1542891555413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/customerChallenge$CityIntegrationTest.ic" NAME="CityIntegrationTest Coverage Results" MODIFIED="1542638955769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zup</FILTER>
     </SUITE>
@@ -57,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26930" />
+          <entry key="java" value="27451" />
           <entry key="properties" value="249" />
           <entry key="txt" value="17" />
           <entry key="xml" value="65" />
@@ -66,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26930" />
+          <entry key="JAVA" value="27451" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="249" />
           <entry key="XML" value="65" />
@@ -79,7 +84,7 @@
           <entry key="customer" value="1" />
           <entry key="hibernate_sequence" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="251" />
+          <entry key="java" value="263" />
           <entry key="jsx" value="1" />
           <entry key="properties" value="5" />
           <entry key="sql" value="1" />
@@ -92,7 +97,7 @@
           <entry key="CLASS" value="13" />
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="251" />
+          <entry key="JAVA" value="263" />
           <entry key="JSX Harmony" value="1" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="1" />
@@ -109,73 +114,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="556">
+              <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/create-react-app/frontReactZup/src/Components/pages/cities/Cities.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+            <state relative-caret-position="-264">
+              <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="85" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -223,17 +180,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zup/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" />
       </list>
     </option>
   </component>
@@ -410,7 +367,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542887216167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542891672923" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -437,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="JUnit.All in customerChallenge">
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -446,61 +403,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityControllerTest.testUpdateCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zup.*" />
+          <option name="PATTERN" value="com.zup.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zup" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.AppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CityServiceTest.testUpdateWithNonExistingCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="customerChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zup.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zup.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.service.CityServiceTest" />
-      <option name="METHOD_NAME" value="testUpdateWithNonExistingCity" />
+      <option name="PACKAGE_NAME" value="com.zup.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CityControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateCity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceTest.testUpdateNonExistingCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerControllerTest.testPostCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zup.service.*" />
+          <option name="PATTERN" value="com.zup.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zup.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.service.CustomerServiceTest" />
-      <option name="METHOD_NAME" value="testUpdateNonExistingCustomer" />
+      <option name="PACKAGE_NAME" value="com.zup.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="testPostCustomer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerControllerTest.testUpdateCustomerCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zup.*" />
+          <option name="PATTERN" value="com.zup.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zup.App" />
+      <option name="PACKAGE_NAME" value="com.zup.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateCustomerCity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTest.testUpdateCustomerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customerChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zup.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zup.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateCustomerName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -518,19 +480,19 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose" />
+      <item itemvalue="JUnit.CityControllerTest.testUpdateCity" />
+      <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerCity" />
+      <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerName" />
+      <item itemvalue="JUnit.CustomerControllerTest.testPostCustomer" />
       <item itemvalue="JUnit.All in customerChallenge" />
-      <item itemvalue="JUnit.CityServiceTest.testUpdateWithNonExistingCity" />
-      <item itemvalue="JUnit.CustomerServiceTest.testUpdateNonExistingCustomer" />
-      <item itemvalue="Spring Boot.App" />
-      <item itemvalue="JUnit.AppTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.App" />
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.All in customerChallenge" />
-        <item itemvalue="JUnit.CustomerServiceTest.testUpdateNonExistingCustomer" />
-        <item itemvalue="JUnit.CityServiceTest.testUpdateWithNonExistingCity" />
+        <item itemvalue="JUnit.CustomerControllerTest.testPostCustomer" />
+        <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerName" />
+        <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerCity" />
+        <item itemvalue="JUnit.CityControllerTest.testUpdateCity" />
       </list>
     </recent_temporary>
   </component>
@@ -552,44 +514,44 @@
       <workItem from="1542625594763" duration="4172000" />
       <workItem from="1542632585175" duration="9171000" />
       <workItem from="1542798240673" duration="20961000" />
-      <workItem from="1542885493872" duration="1454000" />
+      <workItem from="1542885493872" duration="5661000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_customerChallenge - 2018.11.21 at 13h 17m 54s.xml">
+    <history-entry file="CustomerIntegrationTest_testDeleteCustomer - 2018.11.22 at 10h 47m 31s.xml">
+      <configuration name="CustomerIntegrationTest.testDeleteCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerIntegrationTest_testUpdateCustomerName - 2018.11.22 at 10h 48m 53s.xml">
+      <configuration name="CustomerIntegrationTest.testUpdateCustomerName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityControllerTest - 2018.11.22 at 10h 54m 41s.xml">
+      <configuration name="CityControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest - 2018.11.22 at 10h 55m 31s.xml">
+      <configuration name="CustomerControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityControllerTest_testUpdateCity - 2018.11.22 at 10h 56m 31s.xml">
+      <configuration name="CityControllerTest.testUpdateCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CityControllerTest_testUpdateCity - 2018.11.22 at 10h 57m 26s.xml">
+      <configuration name="CityControllerTest.testUpdateCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest_testUpdateCustomerCity - 2018.11.22 at 10h 58m 16s.xml">
+      <configuration name="CustomerControllerTest.testUpdateCustomerCity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest_testUpdateCustomerName - 2018.11.22 at 10h 58m 29s.xml">
+      <configuration name="CustomerControllerTest.testUpdateCustomerName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerControllerTest_testPostCustomer - 2018.11.22 at 10h 59m 01s.xml">
+      <configuration name="CustomerControllerTest.testPostCustomer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_customerChallenge - 2018.11.22 at 10h 59m 41s.xml">
       <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityServiceTest_testCreateWithCityIdNotNull - 2018.11.21 at 13h 23m 18s.xml">
-      <configuration name="CityServiceTest.testCreateWithCityIdNotNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerServiceTest_testCreateCustomerWithIdNotNull - 2018.11.21 at 13h 26m 07s.xml">
-      <configuration name="CustomerServiceTest.testCreateCustomerWithIdNotNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerServiceTest_testCreateCustomerWithNonExistingCity - 2018.11.21 at 13h 30m 46s.xml">
-      <configuration name="CustomerServiceTest.testCreateCustomerWithNonExistingCity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.21 at 13h 32m 06s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.21 at 13h 32m 39s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityServiceTest_testUpdateWithNonExistingCity - 2018.11.21 at 13h 35m 52s.xml">
-      <configuration name="CityServiceTest.testUpdateWithNonExistingCity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerServiceTest_testUpdateNonExistingCustomer - 2018.11.21 at 13h 37m 48s.xml">
-      <configuration name="CustomerServiceTest.testUpdateNonExistingCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.21 at 13h 39m 26s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.11.21 at 15h 03m 04s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93336000" />
+    <option name="totallyTimeSpent" value="97543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +576,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6704731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.81566066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -627,7 +589,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3284553" />
-      <window_info anchor="bottom" id="Docker" order="15" sideWeight="0.49924242" weight="0.2406504" />
+      <window_info anchor="bottom" id="Docker" order="15" sideWeight="0.49924242" weight="0.61174554" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -774,44 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="105" column="55" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="29" column="101" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-781">
-          <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -877,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="85" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -912,6 +826,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="145" column="75" selection-start-line="145" selection-start-column="75" selection-end-line="145" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="142" column="69" selection-start-line="142" selection-start-column="69" selection-end-line="142" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

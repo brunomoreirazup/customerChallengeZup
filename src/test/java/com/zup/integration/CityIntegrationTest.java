@@ -93,6 +93,7 @@ public class CityIntegrationTest {
                 .andExpect(jsonPath("$.name",Matchers.is(this.city1.getName())));
     }
 
+
     @Test
     public void testGetCitiesByName() throws Exception{
 
@@ -104,8 +105,6 @@ public class CityIntegrationTest {
                 .andExpect(jsonPath("$.page.totalElements", Matchers.greaterThan(0)))
                 .andDo(MockMvcResultHandlers.print())
         ;
-
-
     }
 
     @Test
@@ -116,12 +115,13 @@ public class CityIntegrationTest {
 
         data.put("name", newCity.getName());
 
-        mockMvc.perform(get(PATH)
+        mockMvc.perform(post(PATH)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.id", Matchers.notNullValue()))
                 .andDo(MockMvcResultHandlers.print())
         ;
     }
@@ -141,7 +141,8 @@ public class CityIntegrationTest {
                 .content(JSONObject.toJSONString(data))
                 .characterEncoding("utf-8")
         )
-                .andExpect(status().isOk())
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
                 .andDo(MockMvcResultHandlers.print())
         ;
     }
@@ -153,11 +154,7 @@ public class CityIntegrationTest {
         mockMvc.perform(delete(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
         )
-                .andExpect(status().isOk())
+                .andExpect(status().isNoContent())
         ;
-    }
-
-    @After
-    public void tearDown(){
     }
 }

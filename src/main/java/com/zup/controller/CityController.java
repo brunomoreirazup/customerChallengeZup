@@ -36,17 +36,20 @@ public class CityController {
     }
 
     @PostMapping("/cities")
+    @ResponseStatus(HttpStatus.CREATED)
     public City postCiy(@RequestBody City city){
         return cityService.create(city);
     }
 
     @PutMapping("/cities/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public City putCity(@PathVariable Long id, @RequestBody City city){
         city.setId(id);
         return cityService.update(city);
     }
 
     @DeleteMapping("/cities/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteCity(@PathVariable Long id){
         cityService.delete(id);
     }

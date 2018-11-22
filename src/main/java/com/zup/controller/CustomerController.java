@@ -38,17 +38,20 @@ public class CustomerController {
 
 
     @PostMapping("/customers")
+    @ResponseStatus(HttpStatus.CREATED)
     public Customer postCostumer(@RequestBody Customer customer){
         return customerService.create(customer);
     }
 
     @PutMapping("/customers/{id}")
+    @ResponseStatus(HttpStatus.ACCEPTED)
     public Customer putCustomer(@PathVariable Long id, @RequestBody Customer customer){
         customer.setId(id);
         return customerService.update(customer);
     }
 
     @DeleteMapping("/customers/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteCustomer(@PathVariable Long id){
         customerService.delete(id);
     }
