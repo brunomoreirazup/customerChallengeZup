@@ -5,10 +5,53 @@
 :toclevels: 5
 
 == Introduction
-Welcome to the Customers Challenge API documentation. piriri poororo
+Welcome to the Customers Challenge API documentation. This documentation file will provide the necessary information
+ about the resources and the supported operations of the current version of the API.
 
-== How To
-aaaaa
+
+== Utilization
+All requests must be made by HTTPS protocol. The API will respond differently, depending on the request which it received.
+
+
+=== HTTP Methods
+Allowed methods:
+
+|===
+| Method | Description
+
+| `GET`
+| Get information about a city/customer
+
+| `POST`
+| Create a new city/customer entity
+
+| `PUT`
+| Update a existing city/customer entity
+
+| `DELETE`
+| Delete a existing city/customer entity
+|===
+
+=== HTTP Codes
+Allowed codes:
+
+|===
+| Code | Description
+
+| `200 OK`
+| The request has been successfully executed
+
+| `201 Created`
+| The request has been created
+
+| `202 Accepted`
+| The request has been accepted
+
+| `204 No Content`
+| No content has been returned
+|===
+
+
 
 include::city.adoc[]
 include::customers.adoc[]

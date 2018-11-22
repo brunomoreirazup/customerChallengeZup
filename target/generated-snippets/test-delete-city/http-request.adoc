@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-DELETE /cities/1221 HTTP/1.1
+DELETE /cities/1365 HTTP/1.1
 Content-Type: application/json
 Host: localhost:8080
 

@@ -3,17 +3,17 @@
 {
   "_embedded" : {
     "cities" : [ {
-      "id" : 1215,
-      "name" : "Serrana"
-    }, {
-      "id" : 1216,
-      "name" : "Bavaria"
-    }, {
-      "id" : 1217,
-      "name" : "Sub Zero"
-    }, {
       "id" : 25,
       "name" : "Glacial"
+    }, {
+      "id" : 1359,
+      "name" : "Serrana"
+    }, {
+      "id" : 1360,
+      "name" : "Bavaria"
+    }, {
+      "id" : 1361,
+      "name" : "Sub Zero"
     } ]
   },
   "page" : {
