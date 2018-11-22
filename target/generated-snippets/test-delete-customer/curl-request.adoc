@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/customers/1399' -i -X DELETE
+$ curl 'http://localhost:8080/customers/1495' -i -X DELETE
 ----

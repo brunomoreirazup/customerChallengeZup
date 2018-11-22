@@ -442,6 +442,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_search_customers">Search Customers</a></li>
 <li><a href="#_create_customer">Create Customer</a></li>
 <li><a href="#_update_customer">Update Customer</a></li>
+<li><a href="#_update_customer_city">Update Customer City</a></li>
 <li><a href="#_delete_customer">Delete Customer</a></li>
 </ul>
 </li>
@@ -533,6 +534,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top"><p class="tableblock"><code>204 No Content</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">No content has been returned</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>400 Bad Request</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The request does not contain a valid syntax</p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -561,13 +566,13 @@ Content-Length: 353
       "id" : 25,
       "name" : "Glacial"
     }, {
-      "id" : 1359,
+      "id" : 1455,
       "name" : "Serrana"
     }, {
-      "id" : 1360,
+      "id" : 1456,
       "name" : "Bavaria"
     }, {
-      "id" : 1361,
+      "id" : 1457,
       "name" : "Sub Zero"
     } ]
   },
@@ -585,7 +590,7 @@ Content-Length: 353
 <h3 id="_get_city_by_id">Get City By Id</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">GET /cities/1356 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">GET /cities/1452 HTTP/1.1
 Host: localhost:8080</code></pre>
 </div>
 </div>
@@ -596,7 +601,7 @@ Content-Length: 39
 Content-Type: application/json;charset=UTF-8
 
 {
-  "id" : 1356,
+  "id" : 1452,
   "name" : "Serrana"
 }</code></pre>
 </div>
@@ -619,7 +624,7 @@ Content-Type: application/json;charset=UTF-8
 {
   "_embedded" : {
     "cities" : [ {
-      "id" : 1363,
+      "id" : 1459,
       "name" : "Bavaria"
     } ]
   },
@@ -654,7 +659,7 @@ Content-Length: 38
 Content-Type: application/json;charset=UTF-8
 
 {
-  "id" : 1371,
+  "id" : 1467,
   "name" : "Kaiser"
 }</code></pre>
 </div>
@@ -664,7 +669,7 @@ Content-Type: application/json;charset=UTF-8
 <h3 id="_update_city">Update City</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">PUT /cities/1353 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">PUT /cities/1449 HTTP/1.1
 Content-Length: 27
 Content-Type: application/json;charset=utf-8
 Host: localhost:8080
@@ -681,7 +686,7 @@ Content-Length: 42
 Content-Type: application/json;charset=UTF-8
 
 {
-  "id" : 1353,
+  "id" : 1449,
   "name" : "Antarctica"
 }</code></pre>
 </div>
@@ -691,7 +696,7 @@ Content-Type: application/json;charset=UTF-8
 <h3 id="_delete_city">Delete City</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">DELETE /cities/1365 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">DELETE /cities/1461 HTTP/1.1
 Content-Type: application/json
 Host: localhost:8080</code></pre>
 </div>
@@ -738,17 +743,17 @@ Content-Type: application/json;charset=UTF-8
         "name" : "Glacial"
       }
     }, {
-      "id" : 1390,
+      "id" : 1486,
       "name" : "Jeremias",
       "city" : {
-        "id" : 1388,
+        "id" : 1484,
         "name" : "Uberlandia"
       }
     }, {
-      "id" : 1391,
+      "id" : 1487,
       "name" : "Jerbas",
       "city" : {
-        "id" : 1389,
+        "id" : 1485,
         "name" : "Uberaba"
       }
     } ]
@@ -767,7 +772,7 @@ Content-Type: application/json;charset=UTF-8
 <h3 id="_get_customers_by_id">Get Customers By Id</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">GET /customers/1374 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">GET /customers/1470 HTTP/1.1
 Host: localhost:8080</code></pre>
 </div>
 </div>
@@ -778,10 +783,10 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 101
 
 {
-  "id" : 1374,
+  "id" : 1470,
   "name" : "Jeremias",
   "city" : {
-    "id" : 1372,
+    "id" : 1468,
     "name" : "Uberlandia"
   }
 }</code></pre>
@@ -805,17 +810,17 @@ Content-Type: application/json;charset=UTF-8
 {
   "_embedded" : {
     "customers" : [ {
-      "id" : 1386,
+      "id" : 1482,
       "name" : "Jeremias",
       "city" : {
-        "id" : 1384,
+        "id" : 1480,
         "name" : "Uberlandia"
       }
     }, {
-      "id" : 1387,
+      "id" : 1483,
       "name" : "Jerbas",
       "city" : {
-        "id" : 1385,
+        "id" : 1481,
         "name" : "Uberaba"
       }
     } ]
@@ -842,7 +847,7 @@ Host: localhost:8080
 {
   "city" : {
     "name" : "Uberlandia",
-    "id" : 1392
+    "id" : 1488
   },
   "name" : "Jean"
 }</code></pre>
@@ -855,10 +860,10 @@ Content-Length: 97
 Content-Type: application/json;charset=UTF-8
 
 {
-  "id" : 1396,
+  "id" : 1492,
   "name" : "Jean",
   "city" : {
-    "id" : 1392,
+    "id" : 1488,
     "name" : "Uberlandia"
   }
 }</code></pre>
@@ -869,7 +874,7 @@ Content-Type: application/json;charset=UTF-8
 <h3 id="_update_customer">Update Customer</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">PUT /customers/1382 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">PUT /customers/1478 HTTP/1.1
 Content-Type: application/json;charset=utf-8
 Content-Length: 24
 Host: localhost:8080
@@ -886,11 +891,45 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 100
 
 {
-  "id" : 1382,
+  "id" : 1478,
   "name" : "Cobalto",
   "city" : {
-    "id" : 1380,
+    "id" : 1476,
     "name" : "Uberlandia"
+  }
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_update_customer_city">Update Customer City</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">PUT /customers/1474 HTTP/1.1
+Content-Length: 60
+Content-Type: application/json;charset=utf-8
+Host: localhost:8080
+
+{
+  "city" : {
+    "name" : "Uberaba",
+    "id" : 1473
+  }
+}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">HTTP/1.1 202 Accepted
+Content-Length: 98
+Content-Type: application/json;charset=UTF-8
+
+{
+  "id" : 1474,
+  "name" : "Jeremias",
+  "city" : {
+    "id" : 1473,
+    "name" : "Uberaba"
   }
 }</code></pre>
 </div>
@@ -900,7 +939,7 @@ Content-Length: 100
 <h3 id="_delete_customer">Delete Customer</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">DELETE /customers/1399 HTTP/1.1
+<pre class="highlightjs highlight nowrap"><code class="language-http" data-lang="http">DELETE /customers/1495 HTTP/1.1
 Host: localhost:8080</code></pre>
 </div>
 </div>
@@ -915,7 +954,7 @@ Host: localhost:8080</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-11-22 14:05:14 -02:00
+Last updated 2018-11-22 15:14:22 -02:00
 </div>
 </div>
 </body>

@@ -49,6 +49,9 @@ Allowed codes:
 
 | `204 No Content`
 | No content has been returned
+
+| `400 Bad Request`
+| The request does not contain a valid syntax
 |===
 
 

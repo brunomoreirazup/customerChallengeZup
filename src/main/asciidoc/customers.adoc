@@ -20,6 +20,10 @@ include::{snippets}/test-post-customer/http-response.adoc[]
 include::{snippets}/test-update-customer-name/http-request.adoc[]
 include::{snippets}/test-update-customer-name/http-response.adoc[]
 
+=== Update Customer City
+include::{snippets}/test-update-customer-city/http-request.adoc[]
+include::{snippets}/test-update-customer-city/http-response.adoc[]
+
 === Delete Customer
 include::{snippets}/test-delete-customer/http-request.adoc[]
 include::{snippets}/test-delete-customer/http-response.adoc[]
