@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/controller/CityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/controller/CityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/controller/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/controller/ControllerExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/model/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/model/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/model/CustomPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/model/CustomPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/repository/CityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/repository/CityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CityServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CityServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerServiceBean.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,21 +42,22 @@
     <session id="-732270579">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.116" value="1" />
           <entry key="project.open.time.122" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26885" />
+          <entry key="java" value="26930" />
           <entry key="properties" value="249" />
           <entry key="txt" value="17" />
           <entry key="xml" value="65" />
@@ -81,7 +66,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26885" />
+          <entry key="JAVA" value="26930" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="249" />
           <entry key="XML" value="65" />
@@ -94,7 +79,8 @@
           <entry key="customer" value="1" />
           <entry key="hibernate_sequence" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="250" />
+          <entry key="java" value="251" />
+          <entry key="jsx" value="1" />
           <entry key="properties" value="5" />
           <entry key="sql" value="1" />
           <entry key="xml" value="8" />
@@ -106,7 +92,8 @@
           <entry key="CLASS" value="13" />
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="250" />
+          <entry key="JAVA" value="251" />
+          <entry key="JSX Harmony" value="1" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
@@ -124,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
+            <state relative-caret-position="645">
               <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
             </state>
           </provider>
@@ -133,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,11 +129,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="248">
               <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/create-react-app/frontReactZup/src/Components/pages/cities/Cities.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="195">
               <caret line="22" column="85" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -225,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java" />
       </list>
     </option>
   </component>
@@ -270,7 +279,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,6 +398,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,7 +410,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542820618188" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542887216167" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -542,7 +551,8 @@
       <workItem from="1542195501560" duration="17945000" />
       <workItem from="1542625594763" duration="4172000" />
       <workItem from="1542632585175" duration="9171000" />
-      <workItem from="1542798240673" duration="20706000" />
+      <workItem from="1542798240673" duration="20961000" />
+      <workItem from="1542885493872" duration="1454000" />
     </task>
     <servers />
   </component>
@@ -579,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91627000" />
+    <option name="totallyTimeSpent" value="93336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,8 +602,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.25075758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.25454545" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -609,7 +620,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12071778" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5644372" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007576" side_tool="true" weight="0.2406504" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.19186991" />
@@ -753,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="105" column="55" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-781">
           <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,9 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="60" column="39" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,13 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="178" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -874,16 +860,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="645">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="195">
           <caret line="22" column="85" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -891,20 +887,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="248">
           <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/create-react-app/frontReactZup/src/Components/pages/cities/Cities.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
