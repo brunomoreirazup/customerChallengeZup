@@ -1,0 +1,9 @@
+[source,options="nowrap"]
+----
+{
+  "city" : {
+    "name" : "Uberaba",
+    "id" : 1233
+  }
+}
+----

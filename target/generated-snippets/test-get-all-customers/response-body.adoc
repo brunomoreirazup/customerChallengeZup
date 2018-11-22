@@ -1,0 +1,42 @@
+[source,options="nowrap"]
+----
+{
+  "_embedded" : {
+    "customers" : [ {
+      "id" : 91,
+      "name" : "Jebediah",
+      "city" : {
+        "id" : 25,
+        "name" : "Glacial"
+      }
+    }, {
+      "id" : 660,
+      "name" : "Serginho Cabelo",
+      "city" : {
+        "id" : 25,
+        "name" : "Glacial"
+      }
+    }, {
+      "id" : 1246,
+      "name" : "Jeremias",
+      "city" : {
+        "id" : 1244,
+        "name" : "Uberlandia"
+      }
+    }, {
+      "id" : 1247,
+      "name" : "Jerbas",
+      "city" : {
+        "id" : 1245,
+        "name" : "Uberaba"
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  }
+}
+----

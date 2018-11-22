@@ -1,6 +1,7 @@
 com/zup/service/CityServiceTest.class
 com/zup/integration/CityIntegrationTest.class
 com/zup/integration/CustomerIntegrationTest.class
+com/zup/integration/AbstractTest.class
 com/zup/controller/CustomerControllerTest.class
 com/zup/AppTest.class
 com/zup/service/CustomerServiceTest.class

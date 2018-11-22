@@ -13,6 +13,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
+import org.springframework.restdocs.mockmvc.MockMvcRestDocumentation;
+import org.springframework.restdocs.operation.preprocess.Preprocessors;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
@@ -30,7 +32,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
-public class CustomerIntegrationTest {
+public class CustomerIntegrationTest extends AbstractTest{
 
     MockMvc mockMvc;
 
@@ -57,7 +59,13 @@ public class CustomerIntegrationTest {
 
     @Before
     public void init(){
-        mockMvc = MockMvcBuilders.webAppContextSetup(this.context).build();
+        documentationResultHandler = MockMvcRestDocumentation.document("{method-name}",
+                Preprocessors.preprocessRequest(Preprocessors.prettyPrint()),
+                Preprocessors.preprocessResponse(Preprocessors.prettyPrint()));
+        mockMvc = MockMvcBuilders.webAppContextSetup(this.context)
+                .apply(MockMvcRestDocumentation.documentationConfiguration(this.restDocumentation))
+                .alwaysDo(this.documentationResultHandler)
+                .build();
 
         this.city1 = cityService.create(new City("Uberlandia"));
         this.city2 = cityService.create(new City("Uberaba"));

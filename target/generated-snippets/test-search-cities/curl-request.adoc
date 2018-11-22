@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/cities/search?name=Bavaria' -i -X GET
+----

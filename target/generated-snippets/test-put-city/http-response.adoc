@@ -1,0 +1,11 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 202 Accepted
+Content-Length: 42
+Content-Type: application/json;charset=UTF-8
+
+{
+  "id" : 1209,
+  "name" : "Antarctica"
+}
+----

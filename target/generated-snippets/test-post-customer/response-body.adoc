@@ -1,0 +1,11 @@
+[source,options="nowrap"]
+----
+{
+  "id" : 1252,
+  "name" : "Jean",
+  "city" : {
+    "id" : 1248,
+    "name" : "Uberlandia"
+  }
+}
+----

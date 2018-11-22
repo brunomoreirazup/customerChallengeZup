@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/cities/1209' -i -X PUT \
+    -H 'Content-Type: application/json;charset=utf-8' \
+    -d '{
+  "name" : "Antarctica"
+}'
+----

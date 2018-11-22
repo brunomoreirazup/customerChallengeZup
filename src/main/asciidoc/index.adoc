@@ -1,0 +1,15 @@
+= Customers Challenge API
+:example-caption!:
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 5
+
+== Introduction
+Welcome to the Customers Challenge API documentation. piriri poororo
+
+== How To
+aaaaa
+
+include::city.adoc[]
+include::customers.adoc[]
+

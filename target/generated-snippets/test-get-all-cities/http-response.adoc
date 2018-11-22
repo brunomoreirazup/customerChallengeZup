@@ -1,0 +1,30 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 353
+
+{
+  "_embedded" : {
+    "cities" : [ {
+      "id" : 1215,
+      "name" : "Serrana"
+    }, {
+      "id" : 1216,
+      "name" : "Bavaria"
+    }, {
+      "id" : 1217,
+      "name" : "Sub Zero"
+    }, {
+      "id" : 25,
+      "name" : "Glacial"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 4
+  }
+}
+----

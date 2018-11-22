@@ -1,0 +1,32 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Length: 402
+Content-Type: application/json;charset=UTF-8
+
+{
+  "_embedded" : {
+    "customers" : [ {
+      "id" : 1242,
+      "name" : "Jeremias",
+      "city" : {
+        "id" : 1240,
+        "name" : "Uberlandia"
+      }
+    }, {
+      "id" : 1243,
+      "name" : "Jerbas",
+      "city" : {
+        "id" : 1241,
+        "name" : "Uberaba"
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 2
+  }
+}
+----

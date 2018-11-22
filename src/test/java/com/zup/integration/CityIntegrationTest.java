@@ -18,6 +18,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
+import org.springframework.restdocs.mockmvc.MockMvcRestDocumentation;
+import org.springframework.restdocs.operation.preprocess.Preprocessors;
 import org.springframework.test.annotation.Commit;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests;
@@ -42,7 +44,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
-public class CityIntegrationTest {
+public class CityIntegrationTest extends AbstractTest{
 
     MockMvc mockMvc;
 
@@ -64,7 +66,13 @@ public class CityIntegrationTest {
 
     @Before
     public void init() {
-        mockMvc = MockMvcBuilders.webAppContextSetup(this.context).build();
+        documentationResultHandler = MockMvcRestDocumentation.document("{method-name}",
+                Preprocessors.preprocessRequest(Preprocessors.prettyPrint()),
+                Preprocessors.preprocessResponse(Preprocessors.prettyPrint()));
+        mockMvc = MockMvcBuilders.webAppContextSetup(this.context)
+                .apply(MockMvcRestDocumentation.documentationConfiguration(this.restDocumentation))
+                .alwaysDo(this.documentationResultHandler)
+                .build();
 
         this.city1 = cityService.create(new City("Serrana"));
         this.city2 = cityService.create(new City("Bavaria"));
@@ -95,7 +103,7 @@ public class CityIntegrationTest {
 
 
     @Test
-    public void testGetCitiesByName() throws Exception{
+    public void testSearchCities() throws Exception{
 
         String searchName = "Bavaria";
 

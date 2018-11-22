@@ -1,0 +1,15 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 202 Accepted
+Content-Type: application/json;charset=UTF-8
+Content-Length: 100
+
+{
+  "id" : 1238,
+  "name" : "Cobalto",
+  "city" : {
+    "id" : 1236,
+    "name" : "Uberlandia"
+  }
+}
+----

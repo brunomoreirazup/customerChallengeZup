@@ -1,0 +1,27 @@
+== City
+
+=== Get All Cities
+include::{snippets}/test-get-all-cities/http-request.adoc[]
+include::{snippets}/test-get-all-cities/http-response.adoc[]
+
+=== Get City By Id
+include::{snippets}/test-get-city-by-id/http-request.adoc[]
+include::{snippets}/test-get-city-by-id/http-response.adoc[]
+
+=== Search Cities
+include::{snippets}/test-search-cities/http-request.adoc[]
+include::{snippets}/test-search-cities/http-response.adoc[]
+
+=== Create City
+include::{snippets}/test-post-city/http-request.adoc[]
+include::{snippets}/test-post-city/http-response.adoc[]
+
+=== Update City
+include::{snippets}/test-put-city/http-request.adoc[]
+include::{snippets}/test-put-city/http-response.adoc[]
+
+=== Delete City
+include::{snippets}/test-delete-city/http-request.adoc[]
+include::{snippets}/test-delete-city/http-response.adoc[]
+
+

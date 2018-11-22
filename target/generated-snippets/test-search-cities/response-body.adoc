@@ -1,0 +1,17 @@
+[source,options="nowrap"]
+----
+{
+  "_embedded" : {
+    "cities" : [ {
+      "id" : 1219,
+      "name" : "Bavaria"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  }
+}
+----

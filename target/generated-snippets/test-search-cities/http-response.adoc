@@ -1,0 +1,21 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Length: 195
+Content-Type: application/json;charset=UTF-8
+
+{
+  "_embedded" : {
+    "cities" : [ {
+      "id" : 1219,
+      "name" : "Bavaria"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 20,
+    "totalPages" : 1,
+    "totalElements" : 1
+  }
+}
+----

@@ -1,0 +1,10 @@
+[source,bash]
+----
+$ echo '{
+  "city" : {
+    "name" : "Uberaba",
+    "id" : 1233
+  }
+}' | http PUT 'http://localhost:8080/customers/1234' \
+    'Content-Type:application/json;charset=utf-8'
+----

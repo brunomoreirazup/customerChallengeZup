@@ -6,6 +6,7 @@
 /home/bruno/customerChallenge/src/main/java/com/zup/model/City.java
 /home/bruno/customerChallenge/src/main/java/com/zup/service/CustomerServiceBean.java
 /home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java
+/home/bruno/customerChallenge/src/main/java/com/zup/adapter/SimpleCORSFilter.java
 /home/bruno/customerChallenge/src/main/java/com/zup/controller/ControllerExceptionHandler.java
 /home/bruno/customerChallenge/src/main/java/com/zup/service/CustomerService.java
 /home/bruno/customerChallenge/src/main/java/com/zup/model/Customer.java

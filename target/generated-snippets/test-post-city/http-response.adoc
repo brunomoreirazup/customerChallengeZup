@@ -1,0 +1,11 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Length: 38
+Content-Type: application/json;charset=UTF-8
+
+{
+  "id" : 1227,
+  "name" : "Kaiser"
+}
+----

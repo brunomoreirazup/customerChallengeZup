@@ -1,0 +1,25 @@
+== Customer
+
+=== Get All Customers
+include::{snippets}/test-get-all-customers/http-request.adoc[]
+include::{snippets}/test-get-all-customers/http-response.adoc[]
+
+=== Get Customers By Id
+include::{snippets}/test-get-customer-by-id/http-request.adoc[]
+include::{snippets}/test-get-customer-by-id/http-response.adoc[]
+
+=== Search Customers
+include::{snippets}/test-search-customers/http-request.adoc[]
+include::{snippets}/test-search-customers/http-response.adoc[]
+
+=== Create Customer
+include::{snippets}/test-post-customer/http-request.adoc[]
+include::{snippets}/test-post-customer/http-response.adoc[]
+
+=== Update Customer
+include::{snippets}/test-update-customer-name/http-request.adoc[]
+include::{snippets}/test-update-customer-name/http-response.adoc[]
+
+=== Delete Customer
+include::{snippets}/test-delete-customer/http-request.adoc[]
+include::{snippets}/test-delete-customer/http-response.adoc[]
