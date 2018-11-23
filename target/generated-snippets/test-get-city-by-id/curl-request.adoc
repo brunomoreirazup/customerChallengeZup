@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/cities/1740' -i -X GET
+$ curl 'http://localhost:8080/cities/2220' -i -X GET
 ----

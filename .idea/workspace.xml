@@ -2,76 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customers-challenge-bruno.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/customers-challenge-bruno.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customers-challenge-bruno.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/customers-challenge-bruno.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-docs/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/city.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-docs/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/customers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/request-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/request-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/request-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/request-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.controller.CityControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.controller.CityControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.controller.CustomerControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.controller.CustomerControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.integration.CityIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.integration.CityIntegrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.integration.CustomerIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.integration.CustomerIntegrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.service.CityServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.service.CityServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.service.CustomerServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zup.service.CustomerServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.controller.CityControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.controller.CityControllerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.controller.CustomerControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.controller.CustomerControllerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.integration.CityIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.integration.CityIntegrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.integration.CustomerIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.integration.CustomerIntegrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.service.CityServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.service.CityServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zup.service.CustomerServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.zup.service.CustomerServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,13 +16,16 @@
     <SUITE FILE_PATH="coverage/customerChallenge$CityControllerTest.ic" NAME="CityControllerTest Coverage Results" MODIFIED="1542638973405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zup.controller.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/customerChallenge$All_in_customerChallenge.ic" NAME="All in customerChallenge Coverage Results" MODIFIED="1542901196572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/customerChallenge$All_Features_in__test.ic" NAME="All Features in: test Coverage Results" MODIFIED="1542985445511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/customerChallenge$All_in_customerChallenge.ic" NAME="All in customerChallenge Coverage Results" MODIFIED="1542985546167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/customerChallenge$CityIntegrationTest.ic" NAME="CityIntegrationTest Coverage Results" MODIFIED="1542638955769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zup</FILTER>
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="35" />
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -128,7 +62,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="adoc" value="1721" />
-          <entry key="java" value="27655" />
+          <entry key="java" value="27736" />
           <entry key="properties" value="249" />
           <entry key="txt" value="17" />
           <entry key="xml" value="76" />
@@ -137,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27655" />
+          <entry key="JAVA" value="27736" />
           <entry key="PLAIN_TEXT" value="1738" />
           <entry key="Properties" value="249" />
           <entry key="XML" value="76" />
@@ -153,9 +87,9 @@
           <entry key="hibernate_sequence" value="1" />
           <entry key="html" value="12" />
           <entry key="iml" value="2" />
-          <entry key="java" value="282" />
+          <entry key="java" value="288" />
           <entry key="jsx" value="1" />
-          <entry key="properties" value="5" />
+          <entry key="properties" value="7" />
           <entry key="sql" value="1" />
           <entry key="xml" value="14" />
           <entry key="yml" value="3" />
@@ -167,10 +101,10 @@
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="12" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="282" />
+          <entry key="JAVA" value="288" />
           <entry key="JSX Harmony" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="7" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="1" />
@@ -197,11 +131,77 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="300">
               <caret line="152" column="39" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -223,6 +223,7 @@
       <find>jsonPath</find>
       <find>param</find>
       <find>postgre</find>
+      <find>jacoco</find>
     </findStrings>
     <replaceStrings>
       <replace>findById</replace>
@@ -258,13 +259,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/asciidoc/contato.adoc" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/asciidoc/city.adoc" />
         <option value="$PROJECT_DIR$/src/main/asciidoc/customers.adoc" />
         <option value="$PROJECT_DIR$/src/main/asciidoc/index.adoc" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
       </list>
     </option>
   </component>
@@ -287,9 +289,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1600" />
-    <option name="y" value="25" />
+    <option name="y" value="-2" />
     <option name="width" value="1366" />
-    <option name="height" value="743" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -316,73 +318,31 @@
               <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="asciidoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zup" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zup" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="customerChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="customerChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zup" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542973223585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542985900554" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/xy_simpleSpringBootCrud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -431,6 +391,23 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in customerChallenge">
+    <configuration name="All Features in: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="customerChallenge" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -464,22 +441,6 @@
       <option name="PACKAGE_NAME" value="com.zup.controller" />
       <option name="MAIN_CLASS_NAME" value="com.zup.controller.CustomerControllerTest" />
       <option name="METHOD_NAME" value="testPostCustomer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerControllerTest.testUpdateCustomerCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="customerChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zup.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zup.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CustomerControllerTest" />
-      <option name="METHOD_NAME" value="testUpdateCustomerCity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -522,19 +483,19 @@
     <list>
       <item itemvalue="Docker.docker-compose" />
       <item itemvalue="Spring Boot.App" />
-      <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerCity" />
       <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerName" />
       <item itemvalue="JUnit.CustomerControllerTest.testPostCustomer" />
       <item itemvalue="JUnit.All in customerChallenge" />
       <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="Cucumber java.All Features in: test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in customerChallenge" />
+        <item itemvalue="Cucumber java.All Features in: test" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.CustomerControllerTest.testPostCustomer" />
         <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerName" />
-        <item itemvalue="JUnit.CustomerControllerTest.testUpdateCustomerCity" />
       </list>
     </recent_temporary>
   </component>
@@ -557,26 +518,11 @@
       <workItem from="1542632585175" duration="9171000" />
       <workItem from="1542798240673" duration="20961000" />
       <workItem from="1542885493872" duration="17805000" />
-      <workItem from="1542972545751" duration="886000" />
+      <workItem from="1542972545751" duration="2691000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerControllerTest_testUpdateCustomerCity - 2018.11.22 at 10h 58m 16s.xml">
-      <configuration name="CustomerControllerTest.testUpdateCustomerCity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest_testUpdateCustomerName - 2018.11.22 at 10h 58m 29s.xml">
-      <configuration name="CustomerControllerTest.testUpdateCustomerName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerControllerTest_testPostCustomer - 2018.11.22 at 10h 59m 01s.xml">
-      <configuration name="CustomerControllerTest.testPostCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.22 at 10h 59m 41s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.22 at 12h 04m 01s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_customerChallenge - 2018.11.22 at 12h 06m 25s.xml">
       <configuration name="All in customerChallenge" configurationId="JUnit" />
     </history-entry>
@@ -592,9 +538,24 @@
     <history-entry file="All_in_customerChallenge - 2018.11.23 at 09h 35m 32s.xml">
       <configuration name="All in customerChallenge" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_Features_in__test - 2018.11.23 at 13h 03m 04s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__test - 2018.11.23 at 13h 04m 06s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__test - 2018.11.23 at 13h 04m 14s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_customerChallenge - 2018.11.23 at 13h 05m 25s.xml">
+      <configuration name="All in customerChallenge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_customerChallenge - 2018.11.23 at 13h 06m 11s.xml">
+      <configuration name="All in customerChallenge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110573000" />
+    <option name="totallyTimeSpent" value="112378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +570,7 @@
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.2530303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.37424242" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -643,7 +604,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32954547" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.5780303" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.23560606" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/controller/AbstractController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/repository/CityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -742,23 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -790,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -808,26 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,16 +797,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/response-body.adoc">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/service/CityService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/service/CustomerService.java" />
@@ -2151,10 +2057,71 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/customers.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="300">
           <caret line="152" column="39" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>

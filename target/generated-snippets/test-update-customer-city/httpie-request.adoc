@@ -3,8 +3,8 @@
 $ echo '{
   "city" : {
     "name" : "Uberaba",
-    "id" : 1761
+    "id" : 2241
   }
-}' | http PUT 'http://localhost:8080/customers/1762' \
+}' | http PUT 'http://localhost:8080/customers/2242' \
     'Content-Type:application/json;charset=utf-8'
 ----
