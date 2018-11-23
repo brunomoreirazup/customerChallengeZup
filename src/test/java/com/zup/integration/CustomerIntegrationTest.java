@@ -125,12 +125,6 @@ public class CustomerIntegrationTest extends AbstractTest{
         ;
     }
 
-    @Test(expected = )
-    public void testPostInvalidCustomer() throws Exception{
-
-        mockMvc.perform
-    }
-
     @Test
     public void testUpdateCustomerName() throws Exception{
         Long id = this.customer1.getId();
