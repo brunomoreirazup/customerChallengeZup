@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ http DELETE 'http://localhost:8080/cities/1461' \
+$ http DELETE 'http://localhost:8080/cities/1749' \
     'Content-Type:application/json'
 ----

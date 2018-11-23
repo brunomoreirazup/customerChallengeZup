@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CityController.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">customerChallenge</a> &gt; <a href="index.source.html" class="el_package">com.zup.controller</a> &gt; <span class="el_source">CityController.java</span></div><h1>CityController.java</h1><pre class="source lang-java linenums">package com.zup.controller;
+
+import com.zup.model.City;
+import com.zup.model.CustomPage;
+import com.zup.service.CityServiceBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
+import javax.xml.bind.ValidationException;
+
+
+@RestController
+<span class="fc" id="L16">public class CityController {</span>
+
+    @Autowired
+    CityServiceBean cityService;
+
+    @GetMapping(&quot;/cities&quot;)
+    public CustomPage getCities(Pageable pageable){
+<span class="fc" id="L23">        CustomPage customPage = new CustomPage(cityService.findAll(pageable), &quot;cities&quot;);</span>
+<span class="fc" id="L24">        return customPage;</span>
+    }
+
+    @GetMapping(&quot;/cities/search&quot;)
+    public CustomPage searchCities(Pageable pageable, @RequestParam(value = &quot;name&quot;) String name){
+<span class="fc" id="L29">        CustomPage customPage = new CustomPage(cityService.findByName(pageable, name), &quot;cities&quot;);</span>
+<span class="fc" id="L30">        return customPage;</span>
+    }
+
+    @GetMapping(&quot;/cities/{id}&quot;)
+    public City getCityById(@PathVariable Long id){
+<span class="fc" id="L35">        return cityService.findById(id);</span>
+    }
+
+    @PostMapping(&quot;/cities&quot;)
+    @ResponseStatus(HttpStatus.CREATED)
+    public City postCiy(@RequestBody City city){
+<span class="fc" id="L41">        return cityService.create(city);</span>
+    }
+
+    @PutMapping(&quot;/cities/{id}&quot;)
+    @ResponseStatus(HttpStatus.ACCEPTED)
+    public City putCity(@PathVariable Long id, @RequestBody City city){
+<span class="fc" id="L47">        city.setId(id);</span>
+<span class="fc" id="L48">        return cityService.update(city);</span>
+    }
+
+    @DeleteMapping(&quot;/cities/{id}&quot;)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteCity(@PathVariable Long id){
+<span class="fc" id="L54">        cityService.delete(id);</span>
+<span class="fc" id="L55">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

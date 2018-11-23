@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ http GET 'http://localhost:8080/customers/1470'
+$ http GET 'http://localhost:8080/customers/1758'
 ----
