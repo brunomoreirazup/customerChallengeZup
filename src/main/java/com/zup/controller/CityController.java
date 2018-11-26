@@ -4,12 +4,10 @@ import com.zup.model.City;
 import com.zup.model.CustomPage;
 import com.zup.service.CityServiceBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.bind.ValidationException;
 
 
 @RestController
@@ -20,14 +18,12 @@ public class CityController {
 
     @GetMapping("/cities")
     public CustomPage getCities(Pageable pageable){
-        CustomPage customPage = new CustomPage(cityService.findAll(pageable), "cities");
-        return customPage;
+        return new CustomPage(cityService.findAll(pageable), "cities");
     }
 
     @GetMapping("/cities/search")
     public CustomPage searchCities(Pageable pageable, @RequestParam(value = "name") String name){
-        CustomPage customPage = new CustomPage(cityService.findByName(pageable, name), "cities");
-        return customPage;
+        return new CustomPage(cityService.findByName(pageable, name), "cities");
     }
 
     @GetMapping("/cities/{id}")

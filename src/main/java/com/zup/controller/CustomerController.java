@@ -2,15 +2,12 @@ package com.zup.controller;
 
 import com.zup.model.CustomPage;
 import com.zup.model.Customer;
-import com.zup.service.CustomerService;
 import com.zup.service.CustomerServiceBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.bind.ValidationException;
 
 @RestController
 public class CustomerController {
@@ -20,15 +17,12 @@ public class CustomerController {
 
     @GetMapping("/customers")
     public CustomPage getCustomers(Pageable pageable){
-
-        CustomPage customPage = new CustomPage(customerService.findAll(pageable), "customers");
-        return customPage;
+        return new CustomPage(customerService.findAll(pageable), "customers");
     }
 
     @GetMapping("/customers/search")
     public CustomPage searchCustomer(Pageable pageable, @RequestParam(value = "name") String name){
-        CustomPage customPage = new CustomPage(customerService.findByName(pageable, name), "customers");
-        return customPage;
+        return new CustomPage(customerService.findByName(pageable, name), "customers");
     }
 
     @GetMapping("/customers/{id}")
