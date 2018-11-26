@@ -1,11 +1,11 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/customers/2943' -i -X PUT \
+$ curl 'http://localhost:8080/customers/3135' -i -X PUT \
     -H 'Content-Type: application/json;charset=utf-8' \
     -d '{
   "city" : {
     "name" : "Uberaba",
-    "id" : 2942
+    "id" : 3134
   }
 }'
 ----

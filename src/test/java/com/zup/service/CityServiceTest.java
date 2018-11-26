@@ -182,7 +182,4 @@ public class CityServiceTest {
 
     }
 
-    @After
-    public void tearDown(){}
-
 }

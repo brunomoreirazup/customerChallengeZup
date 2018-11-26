@@ -97,7 +97,7 @@ public class CustomerControllerTest {
 
         mockMvc.perform(get(PATH + "/search")
                 .param("name", name)
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$._embedded.customers", Matchers.hasSize(3)))
@@ -199,7 +199,5 @@ public class CustomerControllerTest {
 
     }
 
-    @After
-    public void tearDown(){}
 
 }

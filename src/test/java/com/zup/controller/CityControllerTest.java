@@ -86,7 +86,8 @@ public class CityControllerTest {
         when(cityService.findByName(notNull(),notNull())).thenReturn(paginatedCities);
 
         mockMvc.perform(get(PATH + "/search" )
-                .param("name","Ub").characterEncoding("utf-8")
+                .param("name","Ub")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
