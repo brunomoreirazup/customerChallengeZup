@@ -1,6 +1,6 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/customers/3475' -i -X PUT \
+$ curl 'http://localhost:8080/customers/3589' -i -X PUT \
     -H 'Content-Type: application/json;charset=utf-8' \
     -d '{
   "name" : "Cobalto"

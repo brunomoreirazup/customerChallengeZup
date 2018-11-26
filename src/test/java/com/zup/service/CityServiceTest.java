@@ -2,7 +2,6 @@ package com.zup.service;
 
 import com.zup.model.City;
 import com.zup.repository.CityRepository;
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -132,7 +131,7 @@ public class CityServiceTest {
 
         City returnedCity = cityService.create(city);
 
-        Assert.assertNotNull("failure - expected not null", returnedCity);
+        Assert.assertNotNull(NOT_NULL_MSG, returnedCity);
         Assert.assertEquals("failure - expected city id",  city.getId(), returnedCity.getId());
         Assert.assertEquals("failure - expected city name", city.getName(), returnedCity.getName());
 
