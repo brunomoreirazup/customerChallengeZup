@@ -17,6 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 
+import java.net.URI;
 import java.util.*;
 import java.util.List;
 
@@ -35,7 +36,7 @@ public class CityControllerTest {
     @Autowired
     MockMvc mockMvc;
 
-    private static final String PATH = "/cities";
+    private static final String PATH = URI.create("/cities").toString();
     private static final String CHARACTER_ENCODING = "utf-8";
 
     private Collection<City> citiesList;

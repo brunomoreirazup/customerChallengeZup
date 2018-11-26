@@ -7,17 +7,17 @@ Content-Length: 353
 {
   "_embedded" : {
     "cities" : [ {
-      "id" : 3308,
-      "name" : "Serrana"
-    }, {
-      "id" : 3309,
-      "name" : "Bavaria"
-    }, {
-      "id" : 3310,
-      "name" : "Sub Zero"
-    }, {
       "id" : 25,
       "name" : "Glacial"
+    }, {
+      "id" : 3452,
+      "name" : "Serrana"
+    }, {
+      "id" : 3453,
+      "name" : "Bavaria"
+    }, {
+      "id" : 3454,
+      "name" : "Sub Zero"
     } ]
   },
   "page" : {

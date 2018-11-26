@@ -24,6 +24,7 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 
 
+import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -46,7 +47,7 @@ public class CityIntegrationTest extends AbstractTest{
     @Autowired
     CityServiceBean cityService;
 
-    private static final String PATH = "/cities";
+    private static final String PATH = URI.create("/cities").toString();
     private static final String CHARACTER_ENCODING = "utf-8";
 
     private City city1;

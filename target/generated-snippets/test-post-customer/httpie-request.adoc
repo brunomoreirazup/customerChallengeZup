@@ -3,7 +3,7 @@
 $ echo '{
   "city" : {
     "name" : "Uberlandia",
-    "id" : 3341
+    "id" : 3485
   },
   "name" : "Jean"
 }' | http POST 'http://localhost:8080/customers' \

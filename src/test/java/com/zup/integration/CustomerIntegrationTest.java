@@ -22,6 +22,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.WebApplicationContext;
 
+import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -55,7 +56,7 @@ public class CustomerIntegrationTest extends AbstractTest{
     private Customer customer1;
     private Customer customer2;
 
-    private static final String PATH = "/customers";
+    private static final String PATH = URI.create("/customers").toString();
     private static final String CHARACTER_ENCODING = "utf-8";
 
     @Before

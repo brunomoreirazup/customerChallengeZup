@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="adoc" value="1721" />
-          <entry key="java" value="28258" />
+          <entry key="java" value="28301" />
           <entry key="properties" value="249" />
           <entry key="txt" value="17" />
           <entry key="xml" value="76" />
@@ -74,7 +73,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28258" />
+          <entry key="JAVA" value="28301" />
           <entry key="PLAIN_TEXT" value="1738" />
           <entry key="Properties" value="249" />
           <entry key="XML" value="76" />
@@ -90,7 +89,7 @@
           <entry key="hibernate_sequence" value="1" />
           <entry key="html" value="12" />
           <entry key="iml" value="2" />
-          <entry key="java" value="372" />
+          <entry key="java" value="374" />
           <entry key="jsx" value="1" />
           <entry key="properties" value="7" />
           <entry key="sql" value="1" />
@@ -104,7 +103,7 @@
           <entry key="Database Element" value="1" />
           <entry key="HTML" value="12" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="372" />
+          <entry key="JAVA" value="374" />
           <entry key="JSX Harmony" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="7" />
@@ -123,22 +122,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="120">
+              <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,9 +151,11 @@
       <find>param</find>
       <find>postgre</find>
       <find>jacoco</find>
+      <find>WARNING</find>
     </findStrings>
     <replaceStrings>
       <replace>findById</replace>
+      <replace>MSG</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -195,18 +184,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/repository/CityRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zup/adapter/SimpleCORSFilter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -384,7 +373,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543241259412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543242259436" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/xy_simpleSpringBootCrud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -414,7 +403,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerServiceTest">
+  <component name="RunManager" selected="JUnit.All in customerChallenge">
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -423,16 +412,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CityIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zup.controller.*" />
+          <option name="PATTERN" value="com.zup.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zup.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.zup.controller.CityControllerTest" />
+      <option name="PACKAGE_NAME" value="com.zup.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.zup.integration.CityIntegrationTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -501,18 +490,18 @@
       <item itemvalue="Docker.docker-compose" />
       <item itemvalue="Spring Boot.App" />
       <item itemvalue="JUnit.All in customerChallenge" />
-      <item itemvalue="JUnit.CityControllerTest" />
-      <item itemvalue="JUnit.CustomerIntegrationTest" />
       <item itemvalue="JUnit.CityServiceTest" />
       <item itemvalue="JUnit.CustomerServiceTest" />
+      <item itemvalue="JUnit.CityIntegrationTest" />
+      <item itemvalue="JUnit.CustomerIntegrationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in customerChallenge" />
+        <item itemvalue="JUnit.CustomerIntegrationTest" />
+        <item itemvalue="JUnit.CityIntegrationTest" />
         <item itemvalue="JUnit.CustomerServiceTest" />
         <item itemvalue="JUnit.CityServiceTest" />
-        <item itemvalue="JUnit.All in customerChallenge" />
-        <item itemvalue="JUnit.CityControllerTest" />
-        <item itemvalue="JUnit.CustomerIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -536,17 +525,11 @@
       <workItem from="1542798240673" duration="20961000" />
       <workItem from="1542885493872" duration="17805000" />
       <workItem from="1542972545751" duration="3612000" />
-      <workItem from="1543229527043" duration="9691000" />
+      <workItem from="1543229527043" duration="10761000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 28m 59s.xml">
-      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 29m 48s.xml">
-      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 30m 27s.xml">
       <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
     </history-entry>
@@ -571,9 +554,15 @@
     <history-entry file="All_in_customerChallenge - 2018.11.26 at 12h 03m 55s.xml">
       <configuration name="All in customerChallenge" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CityServiceTest - 2018.11.26 at 12h 06m 24s.xml">
+      <configuration name="CityServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest - 2018.11.26 at 12h 07m 44s.xml">
+      <configuration name="CustomerServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122990000" />
+    <option name="totallyTimeSpent" value="124060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,8 +575,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.26969698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.26969698" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -597,7 +587,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82045454" visible="true" weight="0.2756933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82045454" visible="true" weight="0.2756933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2143,10 +2133,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1333">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="61" />
+        <state relative-caret-position="-103">
+          <caret line="160" column="41" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2155,18 +2145,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="3030">
+          <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+        <state relative-caret-position="120">
+          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

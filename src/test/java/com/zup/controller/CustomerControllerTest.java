@@ -5,7 +5,6 @@ import com.zup.model.Customer;
 import com.zup.service.CustomerServiceBean;
 import net.minidev.json.JSONObject;
 import org.hamcrest.Matchers;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,6 +21,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+import java.net.URI;
 import java.util.*;
 
 import static org.mockito.ArgumentMatchers.notNull;
@@ -37,7 +37,7 @@ public class CustomerControllerTest {
     @Autowired
     MockMvc mockMvc;
 
-    private static final String PATH = "/customers";
+    private static final String PATH = URI.create("/customers").toString();
     private static final String CHARACTER_ENCODING = "utf-8";
 
     private City city1 = new City("Uberaba");

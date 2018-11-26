@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ http DELETE 'http://localhost:8080/customers/3348'
+$ http DELETE 'http://localhost:8080/customers/3492'
 ----
