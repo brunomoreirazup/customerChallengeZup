@@ -36,24 +36,23 @@ public class CityControllerTest {
     MockMvc mockMvc;
 
     private static final String PATH = "/cities";
+    private static final String CHARACTER_ENCODING = "utf-8";
 
     private Collection<City> citiesList;
-    private City city1;
-    private City city2;
+    private City city1 = new City("Uberaba");
+    private City city2 = new City("Uberlandia");
 
     @Before
     public void init(){
-        this.citiesList = new ArrayList();
-        this.city1 = new City("Uberaba");
-        this.city2 = new City("Uberlandia");
+        this.citiesList = new ArrayList<>();
 
-        this. citiesList.add(city1);
-        this.citiesList.add(city2);
+        this. citiesList.add(this.city1);
+        this.citiesList.add(this.city2);
     }
 
     @Test
     public void testGetCities() throws Exception{
-        Page<City> paginatedCities = new PageImpl<City>((List<City>) this.citiesList);
+        Page<City> paginatedCities = new PageImpl<>((List<City>) this.citiesList);
 
         when(cityService.findAll(notNull())).thenReturn(paginatedCities);
 
@@ -63,13 +62,12 @@ public class CityControllerTest {
                 .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
                 .andExpect(jsonPath("$._embedded.cities[0].name",Matchers.is("Uberaba")))
                 .andDo(MockMvcResultHandlers.print());
-        ;
 
     }
 
     @Test
     public void testGetCityById() throws Exception{
-        this.city1.setId(5l);
+        this.city1.setId(5L);
         Long id = this.city1.getId();
 
         when(cityService.findById(id)).thenReturn(this.city1);
@@ -83,7 +81,7 @@ public class CityControllerTest {
 
     @Test
     public void testSearchCities() throws Exception{
-        Page<City> paginatedCities = new PageImpl<City>((List<City>) this.citiesList);
+        Page<City> paginatedCities = new PageImpl<>((List<City>) this.citiesList);
 
         when(cityService.findByName(notNull(),notNull())).thenReturn(paginatedCities);
 
@@ -106,7 +104,11 @@ public class CityControllerTest {
 
         when(cityService.create(notNull())).thenReturn(city);
 
-        mockMvc.perform(post(PATH).contentType(MediaType.APPLICATION_JSON).content(JSONObject.toJSONString(data)))
+        mockMvc.perform(post(PATH)
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(JSONObject.toJSONString(data))
+                .characterEncoding(CHARACTER_ENCODING)
+        )
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("name",Matchers.is("Fornace")))
                 .andDo(MockMvcResultHandlers.print());
@@ -127,7 +129,7 @@ public class CityControllerTest {
         mockMvc.perform(put(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))

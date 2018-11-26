@@ -10,8 +10,8 @@ public class CustomPage {
     private Map<String,Integer> page;
 
     public CustomPage(Page<?> pages, String name){
-        _embedded = new HashMap();
-        page = new HashMap();
+        _embedded = new HashMap<>();
+        page = new HashMap<>();
 
         _embedded.put(name, pages.getContent());
 

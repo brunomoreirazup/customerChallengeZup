@@ -2,11 +2,7 @@ package com.zup.service;
 
 import com.zup.model.City;
 import com.zup.model.Customer;
-import com.zup.repository.CityRepository;
 import com.zup.repository.CustomerRepository;
-import com.zup.service.CityServiceBean;
-import com.zup.service.CustomerService;
-import com.zup.service.CustomerServiceBean;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,7 +15,6 @@ import org.springframework.data.domain.PageRequest;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.NoResultException;
-import java.awt.print.Pageable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -41,15 +36,13 @@ public class CustomerServiceTest {
     @InjectMocks
     private CustomerServiceBean customerService;
 
-    private Collection<Customer> customerList = new ArrayList();
-    private Customer customer1;
-    private Customer customer2;
+    private Collection<Customer> customerList = new ArrayList<>();
+    private Customer customer1 = new Customer("Joaozim Fejao", new City("Uberlandia"));
+    private Customer customer2 = new Customer("Joao Capim", new City("Uberaba"));
 
     @Before
     public void init(){
         MockitoAnnotations.initMocks(this);
-        customer1 = new Customer("Joaozim Fejao", new City("Uberlandia"));
-        customer2 = new Customer("Joao Capim", new City("Uberaba"));
 
         customerList.add(customer1);
         customerList.add(customer2);
@@ -59,8 +52,8 @@ public class CustomerServiceTest {
     @Test
     public void testFindAll(){
 
-        PageRequest pageRequest = new PageRequest(0,20);
-        Page<Customer> paginatedCustomer = new PageImpl<Customer>((List<Customer>) customerList);
+        PageRequest pageRequest = PageRequest.of(0,20);
+        Page<Customer> paginatedCustomer = new PageImpl<>((List<Customer>) customerList);
 
 
         when(customerRepository.findAll(pageRequest)).thenReturn(paginatedCustomer);
@@ -77,8 +70,8 @@ public class CustomerServiceTest {
 
     @Test
     public void testFindByName(){
-        PageRequest pageRequest = new PageRequest(0,20);
-        Page<Customer> paginatedCustomer = new PageImpl<Customer>((List<Customer>) customerList);
+        PageRequest pageRequest = PageRequest.of(0,20);
+        Page<Customer> paginatedCustomer = new PageImpl<>((List<Customer>) customerList);
 
         String name = "Joao";
         when(customerRepository.findByNameContainingIgnoreCase(pageRequest, name)).thenReturn(paginatedCustomer);
@@ -93,10 +86,10 @@ public class CustomerServiceTest {
 
     @Test
     public void testFindByNameNotFound(){
-        Collection<Customer> emptyCustomerList = new ArrayList();
+        List<Customer> emptyCustomerList = new ArrayList<>();
 
-        PageRequest pageRequest = new PageRequest(0,20);
-        Page<Customer> paginatedCustomer = new PageImpl<Customer>((List<Customer>) emptyCustomerList);
+        PageRequest pageRequest = PageRequest.of(0,20);
+        Page<Customer> paginatedCustomer = new PageImpl<>(emptyCustomerList);
 
         String name = "OAEHUHAEOAHEU";
         when(customerRepository.findByNameContainingIgnoreCase(pageRequest, name)).thenReturn(paginatedCustomer);

@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.NoResultException;
-import java.util.Optional;
 
 @Service
 @Transactional
@@ -60,7 +59,7 @@ public class CustomerServiceBean implements CustomerService {
             throw new NoResultException("Requested entity not found");
         }
 
-        if(customer.getName() != null && customer.getName()!=""){
+        if(customer.getName() != null && !customer.getName().equals("")){
             responseCustomer.setName(customer.getName());
         }
 

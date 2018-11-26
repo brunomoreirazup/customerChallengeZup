@@ -2,8 +2,6 @@ package com.zup.service;
 
 import com.zup.model.City;
 import com.zup.repository.CityRepository;
-import com.zup.service.CityService;
-import com.zup.service.CityServiceBean;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -11,7 +9,6 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -37,16 +34,14 @@ public class CityServiceTest {
     @InjectMocks
     CityServiceBean cityService;
 
-    private Collection<City> citiesList = new ArrayList();
-    private City city1;
-    private City city2;
+    private Collection<City> citiesList = new ArrayList<>();
+    private City city1 = new City("Uberlandia");
+    private City city2 = new City("Uberaba");
 
 
     @Before
     public void init(){
         MockitoAnnotations.initMocks(this);
-        this.city1 = new City("Uberlandia");
-        this.city2 = new City("Uberaba");
         citiesList.add(this.city1);
         citiesList.add(this.city2);
 
@@ -55,8 +50,8 @@ public class CityServiceTest {
 
     @Test
     public void testFindAll(){
-        Pageable pageRequest = new PageRequest(0,20);
-        Page<City> paginatedCities = new PageImpl<City>((List<City>) citiesList);
+        Pageable pageRequest = PageRequest.of(0,20);
+        Page<City> paginatedCities = new PageImpl<>((List<City>) citiesList);
 
         when(cityRepository.findAll(pageRequest)).thenReturn(paginatedCities);
 
@@ -69,8 +64,8 @@ public class CityServiceTest {
 
     @Test
     public void testFindByName(){
-        Pageable pageRequest = new PageRequest(0, 20);
-        Page<City> paginatedCities = new PageImpl<City>((List<City>) citiesList);
+        Pageable pageRequest = PageRequest.of(0, 20);
+        Page<City> paginatedCities = new PageImpl<>((List<City>) citiesList);
 
         String name = "Uber";
 
@@ -85,11 +80,11 @@ public class CityServiceTest {
 
     @Test
     public void testFindByNameNotFound(){
-        Collection<City> emptyCityList = new ArrayList();
-        Pageable pageRequest = new PageRequest(0, 20);
-        Page<City> paginatedCities = new PageImpl<City>((List<City>) emptyCityList);
+        List<City> emptyCityList = new ArrayList<>();
+        Pageable pageRequest = PageRequest.of(0, 20);
+        Page<City> paginatedCities = new PageImpl<>(emptyCityList);
 
-        String name = "AEOUHAEOUHEOUHAEOUEHAOEUH";
+        String name = "CIDADENAOEXISTENTE";
 
         when(cityRepository.findByNameContainingIgnoreCase(pageRequest, name)).thenReturn(paginatedCities);
         Page<City> responseCities = cityService.findByName(pageRequest,name);

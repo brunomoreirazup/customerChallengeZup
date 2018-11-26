@@ -23,6 +23,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -46,6 +47,7 @@ public class CityIntegrationTest extends AbstractTest{
     CityServiceBean cityService;
 
     private static final String PATH = "/cities";
+    private static final String CHARACTER_ENCODING = "utf-8";
 
     private City city1;
     private City city2;
@@ -107,14 +109,14 @@ public class CityIntegrationTest extends AbstractTest{
     public void testPostCity() throws Exception{
         City newCity = new City("Kaiser");
 
-        Map<String, String> data = new HashMap();
+        Map<String, String> data = new HashMap<>();
 
         data.put("name", newCity.getName());
 
         mockMvc.perform(post(PATH)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.id", Matchers.notNullValue()))
@@ -129,13 +131,13 @@ public class CityIntegrationTest extends AbstractTest{
 
         this.city1.setName(newName);
 
-        Map<String,String> data = new HashMap();
+        Map<String,String> data = new HashMap<>();
         data.put("name", this.city1.getName());
 
         mockMvc.perform(put(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))

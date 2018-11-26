@@ -56,6 +56,7 @@ public class CustomerIntegrationTest extends AbstractTest{
     private Customer customer2;
 
     private static final String PATH = "/customers";
+    private static final String CHARACTER_ENCODING = "utf-8";
 
     @Before
     public void init(){
@@ -110,14 +111,14 @@ public class CustomerIntegrationTest extends AbstractTest{
     public void testPostCustomer() throws Exception{
         Customer customer = new Customer("Jean", this.city1);
 
-        Map<String, Object> data = new HashMap();
+        Map<String, Object> data = new HashMap<>();
         data.put("name", customer.getName());
         data.put("city", this.city1);
 
         mockMvc.perform(post(PATH)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.id", Matchers.notNullValue()))
@@ -130,13 +131,13 @@ public class CustomerIntegrationTest extends AbstractTest{
         Long id = this.customer1.getId();
         this.customer1.setName("Cobalto");
 
-        Map<String, String> data = new HashMap();
+        Map<String, String> data = new HashMap<>();
         data.put("name", this.customer1.getName());
 
         mockMvc.perform(put(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
@@ -148,13 +149,13 @@ public class CustomerIntegrationTest extends AbstractTest{
     public void testUpdateCustomerCity() throws Exception{
         Long id = this.customer1.getId();
 
-        Map<String,Object> data = new HashMap();
+        Map<String,Object> data = new HashMap<>();
         data.put("city", this.city2);
 
         mockMvc.perform(put(PATH + "/" + id)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(JSONObject.toJSONString(data))
-                .characterEncoding("utf-8")
+                .characterEncoding(CHARACTER_ENCODING)
         )
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$.id", Matchers.is(id.intValue())))
