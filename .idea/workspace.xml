@@ -1,77 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/model/CustomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/repository/CityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/repository/CityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/service/CityServiceBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zup/service/CustomerServiceBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CityControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/controller/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/service/CityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zup/service/CustomerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/model/CustomPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/model/CustomPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/repository/CityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/repository/CityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CityServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CityServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zup/service/CustomerServiceBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-delete-customer/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-cities/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-all-customers/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-city-by-id/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-get-customer-by-id/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/request-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/request-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-post-customer/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-put-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-put-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-cities/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-search-customers/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/request-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/request-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-city/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/curl-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/curl-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-response.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/http-response.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/httpie-request.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/httpie-request.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/response-body.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-snippets/test-update-customer-name/response-body.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CityControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CityControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CustomerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/controller/CustomerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CityIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CityIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CustomerIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/integration/CustomerIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/service/CityServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/service/CityServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zup/service/CustomerServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zup/service/CustomerServiceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="25f56689-26ee-41db-b397-e06abc09cf98" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="adoc" value="1721" />
-          <entry key="java" value="28079" />
+          <entry key="java" value="28088" />
           <entry key="properties" value="249" />
           <entry key="txt" value="17" />
           <entry key="xml" value="76" />
@@ -140,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28079" />
+          <entry key="JAVA" value="28088" />
           <entry key="PLAIN_TEXT" value="1738" />
           <entry key="Properties" value="249" />
           <entry key="XML" value="76" />
@@ -191,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="113">
+              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+            <state relative-caret-position="-196">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -450,7 +380,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/bruno/customerChallenge/src/main/java/com/zup/service/CityService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543239030336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543239444013" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/xy_simpleSpringBootCrud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -480,7 +410,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in customerChallenge">
+  <component name="RunManager" selected="JUnit.CityControllerTest">
     <configuration name="All in customerChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customerChallenge" />
       <option name="PACKAGE_NAME" value="" />
@@ -576,11 +506,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CityControllerTest" />
         <item itemvalue="JUnit.All in customerChallenge" />
         <item itemvalue="JUnit.CustomerIntegrationTest" />
         <item itemvalue="JUnit.CityIntegrationTest" />
         <item itemvalue="JUnit.CityIntegrationTest.testGetAllCities" />
-        <item itemvalue="JUnit.CityControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -604,26 +534,11 @@
       <workItem from="1542798240673" duration="20961000" />
       <workItem from="1542885493872" duration="17805000" />
       <workItem from="1542972545751" duration="3612000" />
-      <workItem from="1543229527043" duration="7606000" />
+      <workItem from="1543229527043" duration="7970000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CityControllerTest_testGetCities - 2018.11.26 at 11h 15m 16s.xml">
-      <configuration name="CityControllerTest.testGetCities" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityControllerTest_testGetCities - 2018.11.26 at 11h 16m 00s.xml">
-      <configuration name="CityControllerTest.testGetCities" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityControllerTest - 2018.11.26 at 11h 16m 24s.xml">
-      <configuration name="CityControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CityControllerTest - 2018.11.26 at 11h 16m 56s.xml">
-      <configuration name="CityControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_customerChallenge - 2018.11.26 at 11h 17m 18s.xml">
-      <configuration name="All in customerChallenge" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CityIntegrationTest_testGetAllCities - 2018.11.26 at 11h 18m 33s.xml">
       <configuration name="CityIntegrationTest.testGetAllCities" configurationId="JUnit" />
     </history-entry>
@@ -639,9 +554,24 @@
     <history-entry file="CityIntegrationTest - 2018.11.26 at 11h 26m 06s.xml">
       <configuration name="CityIntegrationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 28m 07s.xml">
+      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 28m 59s.xml">
+      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 29m 48s.xml">
+      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerIntegrationTest - 2018.11.26 at 11h 30m 27s.xml">
+      <configuration name="CustomerIntegrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_customerChallenge - 2018.11.26 at 11h 30m 51s.xml">
+      <configuration name="All in customerChallenge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120905000" />
+    <option name="totallyTimeSpent" value="121269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,8 +584,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.26969698" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8305085" visible="true" weight="0.26969698" />
       <window_info id="Favorites" order="1" sideWeight="0.16949153" side_tool="true" weight="0.22651514" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -665,7 +596,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82045454" visible="true" weight="0.065252855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82045454" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2223,8 +2154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CityIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="113">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2233,8 +2164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zup/integration/CustomerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        <state relative-caret-position="-196">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -60,7 +60,7 @@ public class CityControllerTest {
         mockMvc.perform(get(PATH))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
-                .andExpect(jsonPath("$._embedded.cities[0].name",Matchers.is("Uberaba")))
+                .andExpect(jsonPath("$._embedded.cities[0].name",Matchers.is(this.city1.getName())))
                 .andDo(MockMvcResultHandlers.print());
 
     }
@@ -90,8 +90,8 @@ public class CityControllerTest {
         )
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$._embedded.cities", Matchers.hasSize(2)))
-                .andExpect(jsonPath("$._embedded.cities[0].name", Matchers.is("Uberaba")))
-                .andExpect(jsonPath("$._embedded.cities[1].name", Matchers.is("Uberlandia")))
+                .andExpect(jsonPath("$._embedded.cities[0].name", Matchers.is(this.city1.getName())))
+                .andExpect(jsonPath("$._embedded.cities[1].name", Matchers.is(this.city2.getName())))
                 .andDo(MockMvcResultHandlers.print());
     }
 
