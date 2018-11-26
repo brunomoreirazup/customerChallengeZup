@@ -2,7 +2,6 @@ package com.zup.controller;
 
 import com.zup.model.City;
 import com.zup.model.Customer;
-import com.zup.service.CustomerService;
 import com.zup.service.CustomerServiceBean;
 import net.minidev.json.JSONObject;
 import org.hamcrest.Matchers;
@@ -15,15 +14,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
-
-import javax.persistence.NoResultException;
-import javax.print.attribute.standard.Media;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;

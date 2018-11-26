@@ -6,13 +6,13 @@
       "id" : 25,
       "name" : "Glacial"
     }, {
-      "id" : 2223,
+      "id" : 2511,
       "name" : "Serrana"
     }, {
-      "id" : 2224,
+      "id" : 2512,
       "name" : "Bavaria"
     }, {
-      "id" : 2225,
+      "id" : 2513,
       "name" : "Sub Zero"
     } ]
   },
