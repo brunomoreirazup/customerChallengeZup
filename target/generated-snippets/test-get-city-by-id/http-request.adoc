@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /cities/2508 HTTP/1.1
+GET /cities/2604 HTTP/1.1
 Host: localhost:8080
 
 ----

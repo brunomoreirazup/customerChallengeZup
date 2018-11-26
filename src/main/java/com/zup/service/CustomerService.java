@@ -1,11 +1,9 @@
 package com.zup.service;
 
-import com.zup.model.City;
 import com.zup.model.Customer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import java.util.Collection;
 
 public interface CustomerService {
 

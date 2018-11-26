@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.NoResultException;
-import java.util.Collection;
 import java.util.Optional;
 
 @Service
@@ -26,23 +25,17 @@ public class CustomerServiceBean implements CustomerService {
 
     @Override
     public Page<Customer> findAll(Pageable pageable) {
-
-        Page<Customer> customers = customerRepository.findAll(pageable);
-        return customers;
-
+        return customerRepository.findAll(pageable);
     }
 
     @Override
     public Page<Customer> findByName(Pageable pageable, String name) {
-
-        Page<Customer> customers = customerRepository.findByNameContainingIgnoreCase(pageable, name);
-        return customers;
+        return customerRepository.findByNameContainingIgnoreCase(pageable, name);
     }
 
     @Override
     public Customer findById(Long id) {
-        Optional<Customer> customer = customerRepository.findById(id);
-        return customer.orElse(null);
+        return customerRepository.findById(id).orElse(null);
     }
 
     @Override
@@ -56,13 +49,13 @@ public class CustomerServiceBean implements CustomerService {
             throw new NoResultException("Requested entity not found");
         }
 
-        Customer createdCustomer = customerRepository.saveAndFlush(customer);
-        return createdCustomer;
+        return customerRepository.saveAndFlush(customer);
     }
 
     @Override
     public Customer update(Customer customer) {
         Customer responseCustomer = findById(customer.getId());
+
         if( responseCustomer == null){
             throw new NoResultException("Requested entity not found");
         }

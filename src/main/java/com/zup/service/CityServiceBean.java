@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityExistsException;
 import javax.persistence.NoResultException;
-import java.util.Collection;
 import java.util.Optional;
 
 @Service
@@ -23,21 +22,18 @@ public class CityServiceBean implements CityService{
     @Override
     public Page<City> findAll(Pageable pageable) {
 
-        Page<City> cities = cityRepository.findAll(pageable);
-        return cities;
+        return cityRepository.findAll(pageable);
     }
 
     @Override
     public Page<City> findByName(Pageable pageable, String name) {
-        Page<City> paginatedCity = cityRepository.findByNameContainingIgnoreCase(pageable, name);
-        return paginatedCity;
+        return cityRepository.findByNameContainingIgnoreCase(pageable, name);
     }
 
     @Override
     public City findById(Long id) {
 
-        Optional<City> city = cityRepository.findById(id);
-        return city.orElse(null);
+        return cityRepository.findById(id).orElse(null);
     }
 
 
@@ -48,8 +44,7 @@ public class CityServiceBean implements CityService{
             throw new EntityExistsException("The id attribute must be null to persist a new entity");
         }
 
-        City returnedCity = cityRepository.saveAndFlush(city);
-        return returnedCity;
+        return cityRepository.saveAndFlush(city);
     }
 
     @Override

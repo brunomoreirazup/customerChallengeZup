@@ -2,6 +2,6 @@
 ----
 $ echo '{
   "name" : "Cobalto"
-}' | http PUT 'http://localhost:8080/customers/2534' \
+}' | http PUT 'http://localhost:8080/customers/2630' \
     'Content-Type:application/json;charset=utf-8'
 ----

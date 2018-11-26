@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/cities/2517' -i -X DELETE \
+$ curl 'http://localhost:8080/cities/2613' -i -X DELETE \
     -H 'Content-Type: application/json'
 ----
