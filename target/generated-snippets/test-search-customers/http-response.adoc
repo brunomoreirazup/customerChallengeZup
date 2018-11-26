@@ -7,17 +7,17 @@ Content-Type: application/json;charset=UTF-8
 {
   "_embedded" : {
     "customers" : [ {
-      "id" : 3143,
+      "id" : 3335,
       "name" : "Jeremias",
       "city" : {
-        "id" : 3141,
+        "id" : 3333,
         "name" : "Uberlandia"
       }
     }, {
-      "id" : 3144,
+      "id" : 3336,
       "name" : "Jerbas",
       "city" : {
-        "id" : 3142,
+        "id" : 3334,
         "name" : "Uberaba"
       }
     } ]

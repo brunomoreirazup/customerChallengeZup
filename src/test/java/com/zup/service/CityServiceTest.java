@@ -38,6 +38,8 @@ public class CityServiceTest {
     private City city1 = new City("Uberlandia");
     private City city2 = new City("Uberaba");
 
+    private static final String NOT_NULL_MSG = "failure - expected not null";
+
 
     @Before
     public void init(){
@@ -57,7 +59,7 @@ public class CityServiceTest {
 
         Page<City> cities = cityService.findAll(pageRequest);
 
-        Assert.assertNotNull("failure - expected not null", cities);
+        Assert.assertNotNull(NOT_NULL_MSG, cities);
         Assert.assertEquals("failure - expected list size", 2, cities.getNumberOfElements());
         verify(cityRepository, atMost(1)).findAll();
     }
@@ -72,7 +74,7 @@ public class CityServiceTest {
         when(cityRepository.findByNameContainingIgnoreCase(pageRequest, name)).thenReturn(paginatedCities);
 
         Page<City> cities = cityService.findByName(pageRequest,name);
-        Assert.assertNotNull("failure - expected no null", cities);
+        Assert.assertNotNull(NOT_NULL_MSG, cities);
         Assert.assertEquals("failure - expected list size", 2, cities.getNumberOfElements());
         verify(cityRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest, name);
 
@@ -89,7 +91,7 @@ public class CityServiceTest {
         when(cityRepository.findByNameContainingIgnoreCase(pageRequest, name)).thenReturn(paginatedCities);
         Page<City> responseCities = cityService.findByName(pageRequest,name);
 
-        Assert.assertNotNull("failure - expected no null", responseCities);
+        Assert.assertNotNull(NOT_NULL_MSG, responseCities);
         Assert.assertEquals("failure - expected list size", 0, responseCities.getNumberOfElements());
 
         verify(cityRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest, name);
@@ -103,7 +105,7 @@ public class CityServiceTest {
 
         City city = cityService.findById(city1.getId());
 
-        Assert.assertNotNull("failure - expected not null", city);
+        Assert.assertNotNull(NOT_NULL_MSG, city);
         Assert.assertEquals("failure - expected id ", city1.getId(), city.getId());
         verify(cityRepository, atMost(1)).findById(this.city1.getId());
 
@@ -116,7 +118,7 @@ public class CityServiceTest {
 
         City city = cityService.findById(id);
 
-        Assert.assertNull("failure - expected null", city);
+        Assert.assertNull(NOT_NULL_MSG, city);
         verify(cityRepository, atMost(1)).findById(this.city1.getId());
 
     }
@@ -156,7 +158,7 @@ public class CityServiceTest {
 
         City returnedCity = cityService.update(this.city1);
 
-        Assert.assertNotNull("failure - expected not null", returnedCity);
+        Assert.assertNotNull(NOT_NULL_MSG, returnedCity);
         Assert.assertEquals("failure - expected city name", newName, returnedCity.getName());
         Assert.assertEquals("failure - expected cityName", this.city1.getId(), returnedCity.getId());
 

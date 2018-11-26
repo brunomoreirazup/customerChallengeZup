@@ -40,6 +40,8 @@ public class CustomerServiceTest {
     private Customer customer1 = new Customer("Joaozim Fejao", new City("Uberlandia"));
     private Customer customer2 = new Customer("Joao Capim", new City("Uberaba"));
 
+    private static final String NOT_NULL_MSG = "failure - expected not null";
+
     @Before
     public void init(){
         MockitoAnnotations.initMocks(this);
@@ -60,7 +62,7 @@ public class CustomerServiceTest {
 
         Page<Customer> customers = customerService.findAll(pageRequest);
 
-        Assert.assertNotNull("failure - expected not null", customers);
+        Assert.assertNotNull(NOT_NULL_MSG, customers);
         Assert.assertEquals("failure - expected size", 2, customers.getNumberOfElements());
 
         verify(customerRepository, atMost(1)).findAll();
@@ -78,7 +80,7 @@ public class CustomerServiceTest {
 
         Page<Customer> customers = customerService.findByName(pageRequest, name);
 
-        Assert.assertNotNull("failure - expected not null", customers);
+        Assert.assertNotNull(NOT_NULL_MSG, customers);
         Assert.assertEquals("failure - expected size", 2, customers.getNumberOfElements());
 
         verify(customerRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest,name);
@@ -96,7 +98,7 @@ public class CustomerServiceTest {
 
         Page<Customer> customers = customerService.findByName(pageRequest, name);
 
-        Assert.assertNotNull("failure - expected not null", customers);
+        Assert.assertNotNull(NOT_NULL_MSG, customers);
         Assert.assertEquals("failure - expected size", 0, customers.getNumberOfElements());
 
         verify(customerRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest,name);
@@ -110,7 +112,7 @@ public class CustomerServiceTest {
 
         Customer responseCustomer = customerService.findById(id);
 
-        Assert.assertNotNull("failure - expected not null", responseCustomer);
+        Assert.assertNotNull(NOT_NULL_MSG, responseCustomer);
         Assert.assertEquals("failure - expected size", this.customer1.getId(), responseCustomer.getId());
 
         verify(customerRepository, atMost(1)).findById(id);
@@ -124,7 +126,7 @@ public class CustomerServiceTest {
 
         Customer responseCustomer = customerService.findById(id);
 
-        Assert.assertNull("failure - expected null", responseCustomer);
+        Assert.assertNull(NOT_NULL_MSG, responseCustomer);
 
         verify(customerRepository, atMost(1)).findById(id);
     }
@@ -141,7 +143,7 @@ public class CustomerServiceTest {
 
         Customer responseCustomer = customerService.create(customer);
 
-        Assert.assertNotNull("failure - expected not null", responseCustomer);
+        Assert.assertNotNull(NOT_NULL_MSG, responseCustomer);
         Assert.assertEquals("failure - expected customer id", customer.getId(), responseCustomer.getId());
         Assert.assertEquals("failure - expected customer name", customer.getName(), responseCustomer.getName());
         Assert.assertEquals("failure - expected customer city name", customer.getCity().getName(),
@@ -179,7 +181,7 @@ public class CustomerServiceTest {
         when(customerRepository.saveAndFlush(this.customer1)).thenReturn(this.customer1);
 
         Customer responseCustomer = customerService.update(this.customer1);
-        Assert.assertNotNull("failure - expected not null",  responseCustomer);
+        Assert.assertNotNull(NOT_NULL_MSG,  responseCustomer);
         Assert.assertEquals("failure - expected customer id", this.customer1.getId(), responseCustomer.getId());
         Assert.assertEquals("failure - expected customer updated name", newName, responseCustomer.getName());
 
@@ -198,7 +200,7 @@ public class CustomerServiceTest {
 
         Customer responseCustomer = customerService.update(this.customer1);
 
-        Assert.assertNotNull("failure - expected not null",  responseCustomer);
+        Assert.assertNotNull(NOT_NULL_MSG,  responseCustomer);
         Assert.assertEquals("failure - expected customer id", this.customer1.getId(), responseCustomer.getId());
         Assert.assertEquals("failure - expected customer updated name",
                 cityToUpdate.getName(), responseCustomer.getCity().getName());

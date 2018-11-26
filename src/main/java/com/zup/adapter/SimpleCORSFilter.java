@@ -21,9 +21,13 @@ public class SimpleCORSFilter implements Filter {
     }
 
     @Override
-    public void init(FilterConfig filterConfig) {}
+    public void init(FilterConfig filterConfig) {
+        //JUST OVERRIDING
+    }
 
     @Override
-    public void destroy() {}
+    public void destroy() {
+        //JUST OVERRIDING
+    }
 
 }

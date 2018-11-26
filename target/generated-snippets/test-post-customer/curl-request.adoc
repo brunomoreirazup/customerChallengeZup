@@ -5,7 +5,7 @@ $ curl 'http://localhost:8080/customers' -i -X POST \
     -d '{
   "city" : {
     "name" : "Uberlandia",
-    "id" : 3149
+    "id" : 3341
   },
   "name" : "Jean"
 }'
