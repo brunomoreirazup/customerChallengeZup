@@ -38,6 +38,7 @@ public class CityServiceTest {
     private City city2 = new City("Uberaba");
 
     private static final String NOT_NULL_MSG = "failure - expected not null";
+    private static final String EXPECTED_SIZE_MSG = "failure - expected size";
 
 
     @Before
@@ -59,7 +60,7 @@ public class CityServiceTest {
         Page<City> cities = cityService.findAll(pageRequest);
 
         Assert.assertNotNull(NOT_NULL_MSG, cities);
-        Assert.assertEquals("failure - expected list size", 2, cities.getNumberOfElements());
+        Assert.assertEquals(EXPECTED_SIZE_MSG, 2, cities.getNumberOfElements());
         verify(cityRepository, atMost(1)).findAll();
     }
 
@@ -74,7 +75,7 @@ public class CityServiceTest {
 
         Page<City> cities = cityService.findByName(pageRequest,name);
         Assert.assertNotNull(NOT_NULL_MSG, cities);
-        Assert.assertEquals("failure - expected list size", 2, cities.getNumberOfElements());
+        Assert.assertEquals(EXPECTED_SIZE_MSG, 2, cities.getNumberOfElements());
         verify(cityRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest, name);
 
     }
@@ -91,7 +92,7 @@ public class CityServiceTest {
         Page<City> responseCities = cityService.findByName(pageRequest,name);
 
         Assert.assertNotNull(NOT_NULL_MSG, responseCities);
-        Assert.assertEquals("failure - expected list size", 0, responseCities.getNumberOfElements());
+        Assert.assertEquals(EXPECTED_SIZE_MSG, 0, responseCities.getNumberOfElements());
 
         verify(cityRepository, atMost(1)).findByNameContainingIgnoreCase(pageRequest, name);
 
